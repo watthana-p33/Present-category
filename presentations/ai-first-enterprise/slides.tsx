@@ -28,6 +28,9 @@ import {
 import { MultiAgentDefenseDiagram } from '@/components/diagrams/MultiAgentDefenseDiagram';
 import { DataSovereigntyDiagram } from '@/components/diagrams/DataSovereigntyDiagram';
 import { ThreePillarsDiagram } from '@/components/diagrams/ThreePillarsDiagram';
+
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 import { DiamondTrapDiagram } from '@/components/diagrams/DiamondTrapDiagram';
 
 export {
@@ -75,7 +78,7 @@ export function getAIFirstEnterpriseSlides(): React.ReactNode[] {
           <div className="w-full rounded-2xl glass-panel border border-slate-200/80 dark:border-white/15 overflow-hidden shadow-md shadow-blue-500/10 dark:shadow-[0_8px_32px_0_rgba(0,0,0,0.5)] relative group">
             <div className="relative aspect-[16/10] w-full overflow-hidden max-h-56">
               <img
-                src="/images/ai_enterprise_cover.jpg"
+                src={`${basePath}/images/ai_enterprise_cover.jpg`}
                 alt="The AI-First Enterprise Architecture"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
@@ -221,7 +224,7 @@ export function getAIFirstEnterpriseSlides(): React.ReactNode[] {
         <div className="glass-panel rounded-2xl border border-pink-200/80 dark:border-fuchsia-500/20 shadow-xs overflow-hidden group flex flex-col justify-between">
           <div className="relative aspect-[3/1] w-full overflow-hidden max-h-28">
             <img
-              src="/images/ai_team_collaboration.jpg"
+              src={`${basePath}/images/ai_team_collaboration.jpg`}
               alt="Democratization of Tools & Mission-Driven Teams"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
             />
@@ -298,7 +301,7 @@ export function getAIFirstEnterpriseSlides(): React.ReactNode[] {
         {/* Left Column: 3D Visual Concept */}
         <div className="lg:col-span-5 rounded-3xl glass-panel border border-amber-200/80 dark:border-amber-500/20 overflow-hidden relative group flex flex-col justify-end min-h-[300px]">
           <img
-            src="/images/diamond_trap_talent_pipeline.jpg"
+            src={`${basePath}/images/diamond_trap_talent_pipeline.jpg`}
             alt="Diamond Trap vs Sustainable Talent Pipeline"
             className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
           />
@@ -571,7 +574,7 @@ export function getAIFirstEnterpriseSlides(): React.ReactNode[] {
         <div className="lg:col-span-6 flex flex-col">
           <div className="w-full h-full min-h-[380px] rounded-3xl glass-panel border border-emerald-200/80 dark:border-emerald-500/30 overflow-hidden shadow-lg shadow-emerald-500/10 dark:shadow-[0_8px_32px_0_rgba(0,0,0,0.5)] relative group flex flex-col justify-end">
             <img
-              src="/images/data_refinery_sovereignty.jpg"
+              src={`${basePath}/images/data_refinery_sovereignty.jpg`}
               alt="Local Data Refinery & Sovereign Boundary"
               className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
             />
