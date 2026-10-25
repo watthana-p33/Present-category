@@ -32,6 +32,11 @@ pnpm-debug.log*
 # typescript
 *.tsbuildinfo
 
+# AI
 .agents/
 
+# AI - Scratch
 scratch/
+
+# Docs
+docs/

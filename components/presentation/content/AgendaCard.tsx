@@ -1,14 +1,16 @@
 import React from 'react';
+import { Bookmark } from 'lucide-react';
 
 interface AgendaCardProps {
   partNumber: string;
   title: string;
   description: string;
-  icon: React.ReactNode;
+  icon?: React.ReactNode;
   iconBgColor?: string;
   iconTextColor?: string;
   onClick?: () => void;
   layout?: 'row' | 'column';
+  tags?: string[];
 }
 
 export function AgendaCard({
@@ -20,6 +22,7 @@ export function AgendaCard({
   iconTextColor = 'text-blue-600 dark:text-cyan-400',
   onClick,
   layout = 'column',
+  tags,
 }: AgendaCardProps) {
   if (layout === 'column') {
     return (
@@ -31,11 +34,17 @@ export function AgendaCard({
       >
         <div>
           <div className="flex items-center justify-between mb-3">
-            <div
-              className={`w-10 h-10 ${iconBgColor} ${iconTextColor} rounded-xl flex items-center justify-center border border-slate-200 dark:border-white/15 shadow-xs group-hover:scale-105 transition-all`}
-            >
-              {icon}
-            </div>
+            {icon ? (
+              <div
+                className={`w-10 h-10 ${iconBgColor} ${iconTextColor} rounded-xl flex items-center justify-center border border-slate-200 dark:border-white/15 shadow-xs group-hover:scale-105 transition-all`}
+              >
+                {icon}
+              </div>
+            ) : (
+              <div className="w-10 h-10 rounded-xl bg-amber-500/15 text-amber-500 flex items-center justify-center border border-amber-500/20 shadow-xs">
+                <Bookmark className="w-5 h-5 text-amber-500" />
+              </div>
+            )}
             <span className="text-[10px] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-indigo-500 dark:from-cyan-400 dark:to-indigo-400 tracking-wider uppercase px-2 py-0.5 rounded-full bg-slate-100 dark:bg-white/5 border border-slate-200/60 dark:border-white/10">
               {partNumber}
             </span>
@@ -43,10 +52,22 @@ export function AgendaCard({
           <h3 className="text-sm sm:text-base font-bold text-slate-900 dark:text-white mb-1.5 group-hover:text-cyan-600 dark:group-hover:text-cyan-300 transition-colors tracking-tight">
             {title}
           </h3>
-          <p className="text-slate-600 dark:text-slate-300 text-xs leading-relaxed">
+          <p className="text-slate-600 dark:text-slate-300 text-xs leading-relaxed mb-3">
             {description}
           </p>
         </div>
+        {tags && tags.length > 0 && (
+          <div className="flex flex-wrap gap-1.5 pt-2 border-t border-slate-200/50 dark:border-white/5">
+            {tags.map((t, idx) => (
+              <span
+                key={idx}
+                className="text-[10px] font-medium px-2 py-0.5 rounded-md bg-slate-100 text-slate-600 dark:bg-white/5 dark:text-slate-400 border border-slate-200/50 dark:border-white/10"
+              >
+                #{t}
+              </span>
+            ))}
+          </div>
+        )}
       </div>
     );
   }

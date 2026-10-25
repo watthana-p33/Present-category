@@ -4,6 +4,7 @@ interface QuoteBoxProps {
   quote: string;
   author?: string;
   role?: string;
+  company?: string;
   variant?: 'blue' | 'purple' | 'amber' | 'slate';
   compact?: boolean;
 }
@@ -15,16 +16,17 @@ const variantStyles = {
   slate: 'bg-slate-100/90 dark:bg-slate-900/50 border-l-4 border-slate-500 text-slate-800 dark:text-slate-100 border border-slate-200/80 dark:border-white/10 backdrop-blur-xl shadow-sm dark:shadow-[0_4px_24px_rgba(0,0,0,0.25)]',
 };
 
-export function QuoteBox({ quote, author, role, variant = 'blue', compact = false }: QuoteBoxProps) {
+export function QuoteBox({ quote, author, role, company, variant = 'blue', compact = false }: QuoteBoxProps) {
   return (
     <div className={`${compact ? 'p-3 sm:p-3.5 rounded-r-xl' : 'p-5 md:p-6 rounded-r-2xl'} ${variantStyles[variant]}`}>
-      <p className={`italic leading-relaxed font-medium ${compact ? 'text-xs sm:text-sm' : 'text-base md:text-lg'}`}>
+      <p className={`italic leading-relaxed font-medium ${compact ? 'text-xs sm:text-sm' : 'text-base md:text-sm'}`}>
         &ldquo;{quote}&rdquo;
       </p>
-      {(author || role) && (
-        <div className={`${compact ? 'mt-1.5 text-xs' : 'mt-3 text-sm'} font-semibold flex items-center gap-1.5`}>
+      {(author || role || company) && (
+        <div className={`${compact ? 'mt-1.5 text-xs' : 'mt-3 text-xs'} font-semibold flex flex-wrap items-center gap-1.5`}>
           {author && <span className="text-slate-900 dark:text-white font-bold">{author}</span>}
-          {role && <span className="text-slate-500 dark:text-slate-400 font-normal">({role})</span>}
+          {role && <span className="text-slate-500 dark:text-slate-400 font-normal">({role}{company ? `, ${company}` : ''})</span>}
+          {!role && company && <span className="text-slate-500 dark:text-slate-400 font-normal">({company})</span>}
         </div>
       )}
     </div>

@@ -5,7 +5,19 @@ import {
   getAIFirstEnterpriseSlides,
   getAIFirstEnterpriseSlidesMeta,
 } from './ai-first-enterprise/slides';
-import { SlideDeck, SlideMetadata } from '@/components/presentation/SlideDeck';
+import {
+  getRenaissancBuilderSlides,
+  getRenaissancBuilderSlidesMeta,
+} from './renaissanc-builder/slides';
+import {
+  aiFirstEnterpriseTimestamps,
+  aiFirstEnterpriseSegments,
+} from './ai-first-enterprise/data';
+import {
+  renaissancBuilderTimestamps,
+  renaissancBuilderSegments,
+} from './renaissanc-builder/data';
+import { SlideDeck, SlideMetadata } from '@/components/presentation/deck';
 import { getPresentationMeta } from './data';
 
 interface PresentationViewerProps {
@@ -28,10 +40,19 @@ export function PresentationViewer({ slug }: PresentationViewerProps) {
 
   let slides: React.ReactNode[] = [];
   let slidesMeta: SlideMetadata[] | undefined = undefined;
+  let timestamps = undefined;
+  let segments = undefined;
 
   if (slug === 'ai-first-enterprise') {
     slides = getAIFirstEnterpriseSlides();
     slidesMeta = getAIFirstEnterpriseSlidesMeta();
+    timestamps = aiFirstEnterpriseTimestamps;
+    segments = aiFirstEnterpriseSegments;
+  } else if (slug === 'renaissanc-builder') {
+    slides = getRenaissancBuilderSlides();
+    slidesMeta = getRenaissancBuilderSlidesMeta();
+    timestamps = renaissancBuilderTimestamps;
+    segments = renaissancBuilderSegments;
   }
 
   return (
@@ -40,6 +61,8 @@ export function PresentationViewer({ slug }: PresentationViewerProps) {
       slides={slides}
       slidesMeta={slidesMeta}
       slug={meta.slug}
+      timestamps={timestamps}
+      segments={segments}
     />
   );
 }

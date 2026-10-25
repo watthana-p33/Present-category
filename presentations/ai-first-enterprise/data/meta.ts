@@ -1,4 +1,4 @@
-import type { SlideMetadata } from '@/components/presentation/SlideDeck';
+import type { SlideMetadata } from '@/components/presentation/deck';
 
 export const aiFirstEnterpriseSlidesMeta: SlideMetadata[] = [
   {
@@ -67,6 +67,10 @@ export const aiFirstEnterpriseSlidesMeta: SlideMetadata[] = [
   {
     section: 'ส่วนที่ 3: The Agentic AI Landscape',
     title: 'Enterprise Best Practices',
+  },
+  {
+    section: 'แหล่งเรียนรู้เพิ่มเติม',
+    title: 'พอดแคสต์ 3 หัวข้อสำคัญ (Podcasts)',
   },
   {
     section: 'บทสรุป',

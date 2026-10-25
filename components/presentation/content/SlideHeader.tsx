@@ -2,6 +2,7 @@ import React from 'react';
 
 export interface SlideHeaderProps {
   section?: string;
+  category?: string;
   badge?: string;
   badgeColor?: 'blue' | 'green' | 'red' | 'purple' | 'amber';
   title: string;
@@ -26,19 +27,21 @@ const sectionColorDot = {
 
 export function SlideHeader({
   section,
+  category,
   badge,
   badgeColor = 'blue',
   title,
   subtitle,
 }: SlideHeaderProps) {
+  const displaySection = section || category;
   return (
     <div className="mb-3 sm:mb-4 md:mb-5 border-b border-slate-200/80 dark:border-white/10 pb-2 sm:pb-2.5">
-      {(section || badge) && (
+      {(displaySection || badge) && (
         <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-1.5 sm:mb-2">
-          {section && (
+          {displaySection && (
             <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold tracking-wider uppercase bg-white/80 text-slate-800 border border-slate-200/80 shadow-xs backdrop-blur-md dark:bg-white/10 dark:text-white dark:border-white/15 dark:shadow-[0_0_15px_-3px_rgba(168,85,247,0.35)]">
               <span className={`w-1.5 h-1.5 rounded-full ${sectionColorDot[badgeColor] || 'bg-cyan-400'}`} />
-              {section}
+              {displaySection}
             </span>
           )}
           {badge && (

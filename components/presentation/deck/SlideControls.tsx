@@ -18,6 +18,7 @@ interface SlideControlsProps {
   onToggleFullscreen: () => void;
   isOverviewOpen?: boolean;
   onToggleOverview?: () => void;
+  isNarrating?: boolean;
 }
 
 export function SlideControls({
@@ -29,6 +30,7 @@ export function SlideControls({
   onToggleFullscreen,
   isOverviewOpen,
   onToggleOverview,
+  isNarrating = false,
 }: SlideControlsProps) {
   const isFirst = currentIndex === 0;
   const isLast = currentIndex === totalSlides - 1;
@@ -42,10 +44,11 @@ export function SlideControls({
       {onToggleOverview && (
         <button
           onClick={onToggleOverview}
+          disabled={isNarrating}
           className={`${iconActionStyle} ${
             isOverviewOpen ? '!text-fuchsia-600 dark:!text-fuchsia-400 opacity-100' : ''
           }`}
-          title="สลับมุมมองสไลด์ทั้งหมด (O)"
+          title={isNarrating ? 'ไม่สามารถเปิดภาพรวมขณะบรรยายได้' : 'สลับมุมมองสไลด์ทั้งหมด (O)'}
           aria-label="Toggle slide overview"
         >
           <LayoutGrid className="w-4 h-4" strokeWidth={1.75} />
@@ -55,9 +58,9 @@ export function SlideControls({
       {/* Prev Icon */}
       <button
         onClick={onPrev}
-        disabled={isFirst}
+        disabled={isNarrating || isFirst}
         className={iconActionStyle}
-        title="สไลด์ก่อนหน้า (← หรือ Backspace)"
+        title={isNarrating ? 'ไม่สามารถเปลี่ยนสไลด์ขณะบรรยายได้' : 'สไลด์ก่อนหน้า (← หรือ Backspace)'}
         aria-label="Previous slide"
       >
         <ChevronLeft className="w-5 h-5" strokeWidth={1.75} />
@@ -75,9 +78,9 @@ export function SlideControls({
       {/* Next Icon */}
       <button
         onClick={onNext}
-        disabled={isLast}
+        disabled={isNarrating || isLast}
         className={iconActionStyle}
-        title="สไลด์ถัดไป (→ หรือ Space)"
+        title={isNarrating ? 'ไม่สามารถเปลี่ยนสไลด์ขณะบรรยายได้' : 'สไลด์ถัดไป (→ หรือ Space)'}
         aria-label="Next slide"
       >
         <ChevronRight className="w-5 h-5" strokeWidth={1.75} />

@@ -1,8 +1,9 @@
 'use client';
 
 import React from 'react';
-import { Slide } from './Slide';
+import { Slide } from '../deck/Slide';
 import { ChevronRight, Sparkles } from 'lucide-react';
+import { SpotlightSection } from '../narration/SpotlightSection';
 
 export interface SectionTopic {
   number: string;
@@ -17,7 +18,9 @@ interface SectionDividerSlideProps {
   description?: string;
   icon?: React.ReactNode;
   topics: SectionTopic[];
-  theme?: 'blue' | 'emerald' | 'purple' | 'rose';
+  theme?: 'blue' | 'emerald' | 'purple' | 'rose' | 'amber';
+  leftTiming?: { startTime: number; endTime: number };
+  topicTimings?: { startTime: number; endTime: number }[];
 }
 
 const themeStyles = {
@@ -61,6 +64,16 @@ const themeStyles = {
     numBg: 'bg-rose-50 text-rose-700 border border-rose-200 shadow-sm dark:bg-rose-500/15 dark:text-rose-300 dark:border-rose-400/30 dark:shadow-[0_0_15px_rgba(244,63,94,0.2)]',
     highlightBorder: 'border-l-rose-600 dark:border-l-rose-400',
   },
+  amber: {
+    badge: 'bg-amber-50 text-amber-700 border-amber-200 dark:bg-amber-500/10 dark:text-amber-300 dark:border-amber-400/30',
+    accentText: 'text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-orange-600 dark:from-amber-400 dark:via-orange-400 dark:to-yellow-400',
+    gradientBg: 'from-amber-600 to-orange-600 dark:from-amber-400 dark:via-orange-500 dark:to-yellow-500',
+    glow: 'bg-amber-500/10 dark:bg-amber-500/15',
+    cardBorder: 'border-slate-200/80 dark:border-white/10',
+    cardHover: 'hover:border-amber-400/50 dark:hover:border-amber-400/50 hover:shadow-[0_8px_30px_rgba(245,158,11,0.12)] dark:hover:shadow-[0_8px_30px_rgba(245,158,11,0.15)]',
+    numBg: 'bg-amber-50 text-amber-700 border border-amber-200 shadow-sm dark:bg-amber-500/15 dark:text-amber-300 dark:border-amber-400/30 dark:shadow-[0_0_15px_rgba(245,158,11,0.2)]',
+    highlightBorder: 'border-l-amber-600 dark:border-l-amber-400',
+  },
 };
 
 export function SectionDividerSlide({
@@ -71,14 +84,20 @@ export function SectionDividerSlide({
   icon,
   topics,
   theme = 'blue',
+  leftTiming,
+  topicTimings,
 }: SectionDividerSlideProps) {
   const styles = themeStyles[theme];
 
   return (
     <Slide isActive={true} center={false}>
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center max-w-6xl mx-auto">
-        {/* Left Column: Big Section Badge & Title */}
-        <div className="lg:col-span-5 flex flex-col justify-center">
+        {/* Left Column: Big Section Badge & Title with Generous Padding */}
+        <SpotlightSection
+          startTime={leftTiming?.startTime}
+          endTime={leftTiming?.endTime}
+          className={`lg:col-span-5 flex flex-col justify-center p-6 sm:p-8 rounded-3xl border ${styles.cardBorder} shadow-sm`}
+        >
           <div className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-bold tracking-widest uppercase mb-2.5 sm:mb-3 border w-fit shadow-xs backdrop-blur-md bg-white/80 dark:bg-slate-900/60 ${styles.badge}`}>
             <span className={`w-1.5 h-1.5 rounded-full ${styles.gradientBg} bg-gradient-to-r animate-pulse`} />
             <span className={styles.accentText}>{partNumber}</span>
@@ -102,33 +121,41 @@ export function SectionDividerSlide({
             <Sparkles className="w-3.5 h-3.5 text-blue-500 dark:text-cyan-400 animate-pulse" />
             <span>หัวข้อที่จะนำเสนอในส่วนนี้ ({topics.length} หัวข้อ)</span>
           </div>
-        </div>
+        </SpotlightSection>
 
         {/* Right Column: Topics List */}
-        <div className="lg:col-span-7 space-y-2.5 sm:space-y-3">
-          {topics.map((t, idx) => (
-            <div
-              key={idx}
-              className={`glass-panel p-3 sm:p-3.5 rounded-2xl border ${styles.cardBorder} ${styles.cardHover} border-l-4 ${styles.highlightBorder} transition-all duration-300 flex items-start gap-3 group`}
-            >
-              <div
-                className={`w-8 h-8 rounded-xl ${styles.numBg} font-black text-xs flex items-center justify-center shrink-0 mt-0.5 group-hover:scale-105 transition-transform`}
+        <div className="lg:col-span-7 space-y-3 sm:space-y-3.5">
+          {topics.map((t, idx) => {
+            const timing = topicTimings?.[idx];
+            return (
+              <SpotlightSection
+                key={idx}
+                startTime={timing?.startTime}
+                endTime={timing?.endTime}
               >
-                {t.number}
-              </div>
-              <div className="flex-1 min-w-0">
-                <h4 className="font-bold text-slate-900 dark:text-white text-sm sm:text-base mb-0.5 leading-snug group-hover:text-blue-600 dark:group-hover:text-cyan-200 transition-colors">
-                  {t.title}
-                </h4>
-                {t.description && (
-                  <p className="text-xs text-slate-600 dark:text-slate-400 leading-relaxed">
-                    {t.description}
-                  </p>
-                )}
-              </div>
-              <ChevronRight className="w-4 h-4 text-slate-400 dark:text-slate-500 group-hover:text-blue-600 dark:group-hover:text-cyan-300 group-hover:translate-x-1 transition-all self-center shrink-0 hidden sm:block" />
-            </div>
-          ))}
+                <div
+                  className={`glass-panel p-4 sm:p-5 rounded-2xl border ${styles.cardBorder} ${styles.cardHover} border-l-4 ${styles.highlightBorder} transition-all duration-300 flex items-start gap-3.5 group`}
+                >
+                  <div
+                    className={`w-9 h-9 rounded-xl ${styles.numBg} font-black text-xs flex items-center justify-center shrink-0 mt-0.5 group-hover:scale-105 transition-transform`}
+                  >
+                    {t.number}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h4 className="font-bold text-slate-900 dark:text-white text-sm sm:text-base mb-1 leading-snug group-hover:text-blue-600 dark:group-hover:text-cyan-200 transition-colors">
+                      {t.title}
+                    </h4>
+                    {t.description && (
+                      <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+                        {t.description}
+                      </p>
+                    )}
+                  </div>
+                  <ChevronRight className="w-4 h-4 text-slate-400 dark:text-slate-500 group-hover:text-blue-600 dark:group-hover:text-cyan-300 group-hover:translate-x-1 transition-all self-center shrink-0 hidden sm:block" />
+                </div>
+              </SpotlightSection>
+            );
+          })}
         </div>
       </div>
     </Slide>

@@ -1,0 +1,1098 @@
+[
+  {
+    "id": 0,
+    "start": 0.0,
+    "end": 1.36,
+    "text": "สวัสดีค่ะทุกท่าน",
+    "th": "สวัสดีค่ะทุกท่าน",
+    "en": "Hello everyone,"
+  },
+  {
+    "id": 1,
+    "start": 1.36,
+    "end": 4.5,
+    "text": "ขอต้อนรับสู่การนำเสนอชุดพิเศษในหัวข้อ",
+    "th": "ขอต้อนรับสู่การนำเสนอชุดพิเศษในหัวข้อ",
+    "en": "Welcome to this special presentation on"
+  },
+  {
+    "id": 2,
+    "start": 4.5,
+    "end": 6.46,
+    "text": "The Renaissance Builder",
+    "th": "The Renaissance Builder",
+    "en": "The Renaissance Builder:"
+  },
+  {
+    "id": 3,
+    "start": 6.46,
+    "end": 9.6,
+    "text": "หรือนักพัฒนาแห่งยุคฟื้นฟูศิลปวิทยาการ",
+    "th": "หรือนักพัฒนาแห่งยุคฟื้นฟูศิลปวิทยาการ",
+    "en": "The Developer of the Modern Renaissance,"
+  },
+  {
+    "id": 4,
+    "start": 9.6,
+    "end": 12.32,
+    "text": "ถอดบทเรียนและวิสัยทัศน์โดยตรงจาก",
+    "th": "ถอดบทเรียนและวิสัยทัศน์โดยตรงจาก",
+    "en": "drawing lessons and vision directly from"
+  },
+  {
+    "id": 5,
+    "start": 12.32,
+    "end": 14.19,
+    "text": "ดร. เวอร์เนอร์ โวเกลส์",
+    "th": "ดร. เวอร์เนอร์ โวเกลส์",
+    "en": "Dr. Werner Vogels,"
+  },
+  {
+    "id": 6,
+    "start": 14.19,
+    "end": 17.59,
+    "text": "ประธานเจ้าหน้าที่ฝ่ายเทคโนโลยีของ Amazon",
+    "th": "ประธานเจ้าหน้าที่ฝ่ายเทคโนโลยีของ Amazon",
+    "en": "Chief Technology Officer of Amazon."
+  },
+  {
+    "id": 7,
+    "start": 17.59,
+    "end": 21.84,
+    "text": "ในยุคที่กระแส AI กำลังเปลี่ยนโฉมหน้าวงการซอฟต์แวร์",
+    "th": "ในยุคที่กระแส AI กำลังเปลี่ยนโฉมหน้าวงการซอฟต์แวร์",
+    "en": "In an era where AI is transforming the software industry,"
+  },
+  {
+    "id": 8,
+    "start": 21.84,
+    "end": 23.63,
+    "text": "เราจะพาทุกท่านไปสำรวจ",
+    "th": "เราจะพาทุกท่านไปสำรวจ",
+    "en": "we invite you to explore"
+  },
+  {
+    "id": 9,
+    "start": 23.63,
+    "end": 26.52,
+    "text": "5 คุณลักษณะสำคัญของนักพัฒนายุคใหม่",
+    "th": "5 คุณลักษณะสำคัญของนักพัฒนายุคใหม่",
+    "en": "5 core attributes of modern developers"
+  },
+  {
+    "id": 10,
+    "start": 26.52,
+    "end": 29.49,
+    "text": "พร้อมบทเรียนเชิงสถาปัตยกรรมระดับโลก",
+    "th": "พร้อมบทเรียนเชิงสถาปัตยกรรมระดับโลก",
+    "en": "along with world-class architectural principles"
+  },
+  {
+    "id": 11,
+    "start": 29.49,
+    "end": 31.7,
+    "text": "เพื่อสร้างระบบที่แข็งแกร่ง",
+    "th": "เพื่อสร้างระบบที่แข็งแกร่ง",
+    "en": "to build resilient,"
+  },
+  {
+    "id": 12,
+    "start": 31.7,
+    "end": 32.3,
+    "text": "ปลอดภัย",
+    "th": "ปลอดภัย",
+    "en": "secure,"
+  },
+  {
+    "id": 13,
+    "start": 32.3,
+    "end": 33.4,
+    "text": "และยั่งยืนค่ะ",
+    "th": "และยั่งยืนค่ะ",
+    "en": "and sustainable systems."
+  },
+  {
+    "id": 14,
+    "start": 33.4,
+    "end": 35.17,
+    "text": "วาระการบรรยายในวันนี้",
+    "th": "วาระการบรรยายในวันนี้",
+    "en": "Today's presentation agenda"
+  },
+  {
+    "id": 15,
+    "start": 35.17,
+    "end": 37.71,
+    "text": "แบ่งออกเป็น 2 หมวดหลักสำคัญค่ะ",
+    "th": "แบ่งออกเป็น 2 หมวดหลักสำคัญค่ะ",
+    "en": "is divided into 2 major strategic parts."
+  },
+  {
+    "id": 16,
+    "start": 37.71,
+    "end": 38.3,
+    "text": "ส่วนแรก",
+    "th": "ส่วนแรก",
+    "en": "In Part 1,"
+  },
+  {
+    "id": 17,
+    "start": 38.3,
+    "end": 39.31,
+    "text": "เราจะเจาะลึก",
+    "th": "เราจะเจาะลึก",
+    "en": "we will dive deep into"
+  },
+  {
+    "id": 18,
+    "start": 39.31,
+    "end": 42.19,
+    "text": "5 คุณลักษณะของ Renaissance Builder",
+    "th": "5 คุณลักษณะของ Renaissance Builder",
+    "en": "the 5 core attributes of the Renaissance Builder:"
+  },
+  {
+    "id": 19,
+    "start": 42.19,
+    "end": 44.21,
+    "text": "ตั้งแต่ความกระหายใคร่รู้",
+    "th": "ตั้งแต่ความกระหายใคร่รู้",
+    "en": "starting from curiosity,"
+  },
+  {
+    "id": 20,
+    "start": 44.21,
+    "end": 45.4,
+    "text": "การคิดเชิงระบบ",
+    "th": "การคิดเชิงระบบ",
+    "en": "systems thinking,"
+  },
+  {
+    "id": 21,
+    "start": 45.4,
+    "end": 47.34,
+    "text": "การสื่อสารจากหลักการแรก",
+    "th": "การสื่อสารจากหลักการแรก",
+    "en": "communication from first principles,"
+  },
+  {
+    "id": 22,
+    "start": 47.34,
+    "end": 49.96,
+    "text": "และบทบาทของ AI ในฐานะคอมไพเลอร์",
+    "th": "และบทบาทของ AI ในฐานะคอมไพเลอร์",
+    "en": "and the role of AI as a compiler."
+  },
+  {
+    "id": 23,
+    "start": 49.96,
+    "end": 51.06,
+    "text": "และส่วนที่สอง",
+    "th": "และส่วนที่สอง",
+    "en": "And in Part 2:"
+  },
+  {
+    "id": 24,
+    "start": 51.06,
+    "end": 54.95,
+    "text": "Architecture & Rigor: You Build It, You Own It",
+    "th": "Architecture & Rigor: You Build It, You Own It",
+    "en": "Architecture & Rigor: You Build It, You Own It,"
+  },
+  {
+    "id": 25,
+    "start": 54.95,
+    "end": 57.99,
+    "text": "เราจะถอดบทเรียนสถาปัตยกรรมเบื้องหลัง",
+    "th": "เราจะถอดบทเรียนสถาปัตยกรรมเบื้องหลัง",
+    "en": "we will unpack the architectural lessons behind"
+  },
+  {
+    "id": 26,
+    "start": 57.99,
+    "end": 60.18,
+    "text": "AWS Lambda และ Firecracker",
+    "th": "AWS Lambda และ Firecracker",
+    "en": "AWS Lambda and Firecracker,"
+  },
+  {
+    "id": 27,
+    "start": 60.18,
+    "end": 62.63,
+    "text": "การสเกลรองรับผู้ใช้ 10 ล้านคน",
+    "th": "การสเกลรองรับผู้ใช้ 10 ล้านคน",
+    "en": "scaling to support 10 million users,"
+  },
+  {
+    "id": 28,
+    "start": 62.63,
+    "end": 66.94,
+    "text": "การรับมือกับภัยคุกคามด้วย Post-Quantum Cryptography",
+    "th": "การรับมือกับภัยคุกคามด้วย Post-Quantum Cryptography",
+    "en": "mitigating emerging threats with Post-Quantum Cryptography,"
+  },
+  {
+    "id": 29,
+    "start": 66.94,
+    "end": 69.9,
+    "text": "และการมาถึงของ Culture-Aware AI ค่ะ",
+    "th": "และการมาถึงของ Culture-Aware AI ค่ะ",
+    "en": "and the emergence of Culture-Aware AI."
+  },
+  {
+    "id": 30,
+    "start": 69.9,
+    "end": 71.58,
+    "text": "เข้าสู่ส่วนที่ 1 ค่ะ",
+    "th": "เข้าสู่ส่วนที่ 1 ค่ะ",
+    "en": "Entering Part 1:"
+  },
+  {
+    "id": 31,
+    "start": 71.58,
+    "end": 75.95,
+    "text": "The Renaissance Builder: คุณลักษณะและกระบวนทัศน์ใหม่",
+    "th": "The Renaissance Builder: คุณลักษณะและกระบวนทัศน์ใหม่",
+    "en": "'The Renaissance Builder: Modern Attributes & Paradigms'."
+  },
+  {
+    "id": 32,
+    "start": 75.95,
+    "end": 80.14,
+    "text": "เราจะมาถอดรหัสวิสัยทัศน์ของ ดร. เวอร์เนอร์ โวเกลส์",
+    "th": "เราจะมาถอดรหัสวิสัยทัศน์ของ ดร. เวอร์เนอร์ โวเกลส์",
+    "en": "We will decode the vision of Dr. Werner Vogels,"
+  },
+  {
+    "id": 33,
+    "start": 80.14,
+    "end": 83.25,
+    "text": "ที่นำกรอบความคิดของ Leonardo da Vinci",
+    "th": "ที่นำกรอบความคิดของ Leonardo da Vinci",
+    "en": "who connects the mindset of Leonardo da Vinci"
+  },
+  {
+    "id": 34,
+    "start": 83.25,
+    "end": 86.27,
+    "text": "มาผสานกับโลกวิศวกรรมซอฟต์แวร์ยุคใหม่",
+    "th": "มาผสานกับโลกวิศวกรรมซอฟต์แวร์ยุคใหม่",
+    "en": "with modern software engineering,"
+  },
+  {
+    "id": 35,
+    "start": 86.27,
+    "end": 89.21,
+    "text": "เพื่อค้นหาว่าอะไรคือทักษะที่แท้จริง",
+    "th": "เพื่อค้นหาว่าอะไรคือทักษะที่แท้จริง",
+    "en": "to discover what true capabilities"
+  },
+  {
+    "id": 36,
+    "start": 89.21,
+    "end": 94.0,
+    "text": "ที่จะทำให้นักพัฒนาอยู่รอดและสร้างคุณค่าได้อย่างยั่งยืนค่ะ",
+    "th": "ที่จะทำให้นักพัฒนาอยู่รอดและสร้างคุณค่าได้อย่างยั่งยืนค่ะ",
+    "en": "enable developers to thrive and create lasting value."
+  },
+  {
+    "id": 37,
+    "start": 94.0,
+    "end": 96.33,
+    "text": "ดร. เวอร์เนอร์ เล่าว่าในอดีต",
+    "th": "ดร. เวอร์เนอร์ เล่าว่าในอดีต",
+    "en": "Dr. Werner shares that in the past,"
+  },
+  {
+    "id": 38,
+    "start": 96.33,
+    "end": 101.42,
+    "text": "ท่านเริ่มเรียนเขียนโปรแกรมด้วยภาษา Pascal, COBOL และ Assembly",
+    "th": "ท่านเริ่มเรียนเขียนโปรแกรมด้วยภาษา Pascal, COBOL และ Assembly",
+    "en": "he began programming in Pascal, COBOL, and Assembly,"
+  },
+  {
+    "id": 39,
+    "start": 101.42,
+    "end": 107.42,
+    "text": "ซึ่งปัจจุบันเปลี่ยนผ่านมาสู่ C, C++, Python จนกระทั่งถึง Rust ในปัจจุบัน",
+    "th": "ซึ่งปัจจุบันเปลี่ยนผ่านมาสู่ C, C++, Python จนกระทั่งถึง Rust ในปัจจุบัน",
+    "en": "which evolved over time through C, C++, Python, to Rust today."
+  },
+  {
+    "id": 40,
+    "start": 107.42,
+    "end": 110.83,
+    "text": "นั่นหมายความว่า หากคุณเป็นวิศวกรซอฟต์แวร์",
+    "th": "นั่นหมายความว่า หากคุณเป็นวิศวกรซอฟต์แวร์",
+    "en": "That means if you are a software engineer,"
+  },
+  {
+    "id": 41,
+    "start": 110.83,
+    "end": 113.0,
+    "text": "คุณต้องเรียนรู้ไปตลอดชีวิต",
+    "th": "คุณต้องเรียนรู้ไปตลอดชีวิต",
+    "en": "you must be a lifelong learner."
+  },
+  {
+    "id": 42,
+    "start": 113.0,
+    "end": 117.92,
+    "text": "คุณลักษณะของยอดคนในยุค Renaissance เช่น เลโอนาร์โด ดา วินชี",
+    "th": "คุณลักษณะของยอดคนในยุค Renaissance เช่น เลโอนาร์โด ดา วินชี",
+    "en": "The qualities of Renaissance polymaths like Leonardo da Vinci,"
+  },
+  {
+    "id": 43,
+    "start": 117.92,
+    "end": 121.5,
+    "text": "ที่มีความกระหายใคร่รู้และบูรณาการหลายศาสตร์",
+    "th": "ที่มีความกระหายใคร่รู้และบูรณาการหลายศาสตร์",
+    "en": "driven by curiosity and cross-disciplinary synthesis,"
+  },
+  {
+    "id": 44,
+    "start": 121.5,
+    "end": 126.0,
+    "text": "จึงเป็นสิ่งที่จำเป็นอย่างยิ่งสำหรับนักพัฒนาในยุคนี้ค่ะ",
+    "th": "จึงเป็นสิ่งที่จำเป็นอย่างยิ่งสำหรับนักพัฒนาในยุคนี้ค่ะ",
+    "en": "are critically essential for modern developers."
+  },
+  {
+    "id": 45,
+    "start": 126.0,
+    "end": 130.42,
+    "text": "คุณลักษณะประการแรก คือ 'ความกระหายใคร่รู้และการทดลอง'",
+    "th": "คุณลักษณะประการแรก คือ 'ความกระหายใคร่รู้และการทดลอง'",
+    "en": "The first core attribute is 'Curiosity & Experimentation'."
+  },
+  {
+    "id": 46,
+    "start": 130.42,
+    "end": 136.68,
+    "text": "นักพัฒนาที่แท้จริงจะมีสัญชาตญาณในการรื้อสิ่งต่างๆ ออกมาดูว่ามันทำงานอย่างไร",
+    "th": "นักพัฒนาที่แท้จริงจะมีสัญชาตญาณในการรื้อสิ่งต่างๆ ออกมาดูว่ามันทำงานอย่างไร",
+    "en": "True builders have an instinct to take things apart and see how they work."
+  },
+  {
+    "id": 47,
+    "start": 136.68,
+    "end": 140.01,
+    "text": "และในการทดลอง คุณต้อง 'กล้าที่จะล้มเหลว'",
+    "th": "และในการทดลอง คุณต้อง 'กล้าที่จะล้มเหลว'",
+    "en": "And in experimenting, you must be 'willing to fail',"
+  },
+  {
+    "id": 48,
+    "start": 140.01,
+    "end": 145.52,
+    "text": "เพราะหากการทดลองไม่มีโอกาสล้มเหลว นั่นย่อมไม่ใช่การทดลองที่แท้จริง",
+    "th": "เพราะหากการทดลองไม่มีโอกาสล้มเหลว นั่นย่อมไม่ใช่การทดลองที่แท้จริง",
+    "en": "because an experiment with no risk of failure is not a genuine experiment."
+  },
+  {
+    "id": 49,
+    "start": 145.52,
+    "end": 147.52,
+    "text": "ตัวอย่างเช่นในยุค Gen AI",
+    "th": "ตัวอย่างเช่นในยุค Gen AI",
+    "en": "For example, in the Gen AI era,"
+  },
+  {
+    "id": 50,
+    "start": 147.52,
+    "end": 151.78,
+    "text": "เราไม่จำเป็นต้องใช้โมเดลยักษ์ใหญ่ที่แพงที่สุดเสมอไป",
+    "th": "เราไม่จำเป็นต้องใช้โมเดลยักษ์ใหญ่ที่แพงที่สุดเสมอไป",
+    "en": "we do not always need the largest, most expensive models."
+  },
+  {
+    "id": 51,
+    "start": 151.78,
+    "end": 156.45,
+    "text": "แต่การทดลองจะช่วยให้เราค้นพบโมเดลขนาดเล็กที่ 'ดีเพียงพอ'",
+    "th": "แต่การทดลองจะช่วยให้เราค้นพบโมเดลขนาดเล็กที่ 'ดีเพียงพอ'",
+    "en": "Experimentation helps us find smaller models that are 'good enough'"
+  },
+  {
+    "id": 52,
+    "start": 156.45,
+    "end": 159.2,
+    "text": "และประหยัดต้นทุนได้อย่างมหาศาลค่ะ",
+    "th": "และประหยัดต้นทุนได้อย่างมหาศาลค่ะ",
+    "en": "and drastically save operational costs."
+  },
+  {
+    "id": 53,
+    "start": 159.2,
+    "end": 163.85,
+    "text": "คุณลักษณะที่สองคือ 'Systems Thinking' หรือการคิดเชิงระบบ",
+    "th": "คุณลักษณะที่สองคือ 'Systems Thinking' หรือการคิดเชิงระบบ",
+    "en": "The second attribute is 'Systems Thinking'."
+  },
+  {
+    "id": 54,
+    "start": 163.85,
+    "end": 167.42,
+    "text": "ดังคำกล่าวคลาสสิกของ โดเนลลา มีโดวส์ ที่ว่า",
+    "th": "ดังคำกล่าวคลาสสิกของ โดเนลลา มีโดวส์ ที่ว่า",
+    "en": "As Donella Meadows famously stated:"
+  },
+  {
+    "id": 55,
+    "start": 167.42,
+    "end": 173.49,
+    "text": "'คุณไม่สามารถเปลี่ยนสิ่งใดสิ่งหนึ่งเพียงอย่างเดียวโดยไม่กระทบทั้งระบบได้'",
+    "th": "'คุณไม่สามารถเปลี่ยนสิ่งใดสิ่งหนึ่งเพียงอย่างเดียวโดยไม่กระทบทั้งระบบได้'",
+    "en": "'You cannot change just one thing without affecting the entire system.'"
+  },
+  {
+    "id": 56,
+    "start": 173.49,
+    "end": 178.06,
+    "text": "ดร. เวอร์เนอร์ ยกตัวอย่างกรณีศึกษาของอุทยาน Yellowstone",
+    "th": "ดร. เวอร์เนอร์ ยกตัวอย่างกรณีศึกษาของอุทยาน Yellowstone",
+    "en": "Dr. Werner cited the Yellowstone National Park case study:"
+  },
+  {
+    "id": 57,
+    "start": 178.06,
+    "end": 181.22,
+    "text": "เมื่อมีการนำหมาป่า 14 ตัวกลับคืนสู่ป่า",
+    "th": "เมื่อมีการนำหมาป่า 14 ตัวกลับคืนสู่ป่า",
+    "en": "when 14 wolves were reintroduced into the wild,"
+  },
+  {
+    "id": 58,
+    "start": 181.22,
+    "end": 185.7,
+    "text": "ไม่เพียงช่วยควบคุมประชากรกวาง แต่ทำให้ป่าริมน้ำฟื้นตัว",
+    "th": "ไม่เพียงช่วยควบคุมประชากรกวาง แต่ทำให้ป่าริมน้ำฟื้นตัว",
+    "en": "they not only controlled the elk population, but riverbank vegetation recovered,"
+  },
+  {
+    "id": 59,
+    "start": 185.7,
+    "end": 189.19,
+    "text": "ดินยึดแน่นขึ้น จนแม่น้ำเปลี่ยนทิศทางการไหล",
+    "th": "ดินยึดแน่นขึ้น จนแม่น้ำเปลี่ยนทิศทางการไหล",
+    "en": "soil stabilized, and even rivers altered their flow."
+  },
+  {
+    "id": 60,
+    "start": 189.19,
+    "end": 194.51,
+    "text": "ในสถาปัตยกรรมซอฟต์แวร์ก็เช่นกัน ไมโครเซอร์วิสไม่ได้อยู่โดดเดี่ยว",
+    "th": "ในสถาปัตยกรรมซอฟต์แวร์ก็เช่นกัน ไมโครเซอร์วิสไม่ได้อยู่โดดเดี่ยว",
+    "en": "In software architecture, microservices do not operate in isolation;"
+  },
+  {
+    "id": 61,
+    "start": 194.51,
+    "end": 197.5,
+    "text": "แต่เป็นส่วนหนึ่งของระบบนิเวศขนาดใหญ่",
+    "th": "แต่เป็นส่วนหนึ่งของระบบนิเวศขนาดใหญ่",
+    "en": "they are part of a broader ecosystem."
+  },
+  {
+    "id": 62,
+    "start": 197.5,
+    "end": 202.4,
+    "text": "วิศวกรจึงต้องเข้าใจ Second-Order Impact และมองภาพรวมเสมอค่ะ",
+    "th": "วิศวกรจึงต้องเข้าใจ Second-Order Impact และมองภาพรวมเสมอค่ะ",
+    "en": "Engineers must grasp second-order impacts and see the big picture."
+  },
+  {
+    "id": 63,
+    "start": 202.4,
+    "end": 205.15,
+    "text": "จากผังสถาปัตยกรรมเชิงระบบบนหน้าจอ",
+    "th": "จากผังสถาปัตยกรรมเชิงระบบบนหน้าจอ",
+    "en": "Looking at the systems architecture diagram on screen,"
+  },
+  {
+    "id": 64,
+    "start": 205.15,
+    "end": 210.22,
+    "text": "เราได้นำบทเรียน Trophic Cascade มาแปลงเป็นกลไกวิศวกรรมจริงค่ะ",
+    "th": "เราได้นำบทเรียน Trophic Cascade มาแปลงเป็นกลไกวิศวกรรมจริงค่ะ",
+    "en": "we translate the Trophic Cascade into practical engineering mechanisms:"
+  },
+  {
+    "id": 65,
+    "start": 210.22,
+    "end": 213.38,
+    "text": "กล่องแรกคือ Apex Regulator เช่น หมาป่า",
+    "th": "กล่องแรกคือ Apex Regulator เช่น หมาป่า",
+    "en": "The first tier is the Apex Regulator, like the wolves;"
+  },
+  {
+    "id": 66,
+    "start": 213.38,
+    "end": 219.79,
+    "text": "ในทางซอฟต์แวร์เทียบเท่ากับกลไก Rate Limiting, Throttling และ Circuit Breakers",
+    "th": "ในทางซอฟต์แวร์เทียบเท่ากับกลไก Rate Limiting, Throttling และ Circuit Breakers",
+    "en": "in software, equating to Rate Limiting, Throttling, and Circuit Breakers"
+  },
+  {
+    "id": 67,
+    "start": 219.79,
+    "end": 222.79,
+    "text": "เพื่อคอยหน่วงและตัดวงจรไม่ให้ระบบล่ม",
+    "th": "เพื่อคอยหน่วงและตัดวงจรไม่ให้ระบบล่ม",
+    "en": "to dampen cascades and prevent system collapse."
+  },
+  {
+    "id": 68,
+    "start": 222.79,
+    "end": 227.03,
+    "text": "กล่องที่สองคือ Intermediate Consumer เช่น กวางเอลก์",
+    "th": "กล่องที่สองคือ Intermediate Consumer เช่น กวางเอลก์",
+    "en": "The second tier is Intermediate Consumers, like the elk;"
+  },
+  {
+    "id": 69,
+    "start": 227.03,
+    "end": 234.85,
+    "text": "เทียบเท่ากับ Microservice Workers ที่ต้องคุมไม่ให้ยิง Request ถล่ม Database จนเกิด Queue Bloat",
+    "th": "เทียบเท่ากับ Microservice Workers ที่ต้องคุมไม่ให้ยิง Request ถล่ม Database จนเกิด Queue Bloat",
+    "en": "representing worker services regulated to prevent DB overload and queue bloat."
+  },
+  {
+    "id": 70,
+    "start": 234.85,
+    "end": 240.68,
+    "text": "และกล่องที่สามคือ Macro Landscape สุขภาพของระบบและความพึงพอใจของลูกค้า",
+    "th": "และกล่องที่สามคือ Macro Landscape สุขภาพของระบบและความพึงพอใจของลูกค้า",
+    "en": "And the third tier is Macro Landscape: system health and customer trust."
+  },
+  {
+    "id": 71,
+    "start": 240.68,
+    "end": 247.0,
+    "text": "นี่คือภาพสะท้อนของการออกแบบ Feedback Loop ที่ทำให้ระบบอยู่รอดอย่างยั่งยืนค่ะ",
+    "th": "นี่คือภาพสะท้อนของการออกแบบ Feedback Loop ที่ทำให้ระบบอยู่รอดอย่างยั่งยืนค่ะ",
+    "en": "This illustrates how proper feedback loops keep architectures durable."
+  },
+  {
+    "id": 72,
+    "start": 247.0,
+    "end": 252.23,
+    "text": "คุณลักษณะที่สามคือ 'การสื่อสารจากหลักการแรก (First Principles)'",
+    "th": "คุณลักษณะที่สามคือ 'การสื่อสารจากหลักการแรก (First Principles)'",
+    "en": "The third attribute is 'First Principles Communication'."
+  },
+  {
+    "id": 73,
+    "start": 252.23,
+    "end": 254.71,
+    "text": "ซอฟต์แวร์คือกีฬาที่เล่นเป็นทีม",
+    "th": "ซอฟต์แวร์คือกีฬาที่เล่นเป็นทีม",
+    "en": "Software engineering is fundamentally a team sport."
+  },
+  {
+    "id": 74,
+    "start": 254.71,
+    "end": 258.11,
+    "text": "จากไดอะแกรมบนหน้าจอ เมื่อฝ่ายธุรกิจบอกว่า",
+    "th": "จากไดอะแกรมบนหน้าจอ เมื่อฝ่ายธุรกิจบอกว่า",
+    "en": "From the diagram on screen, when business leadership asks for"
+  },
+  {
+    "id": 75,
+    "start": 258.11,
+    "end": 262.59,
+    "text": "ต้องการให้ระบบพร้อมใช้งาน 99.99% หรือ 4 Nines ตลอดเวลา",
+    "th": "ต้องการให้ระบบพร้อมใช้งาน 99.99% หรือ 4 Nines ตลอดเวลา",
+    "en": "99.99% (4 Nines) availability across every feature,"
+  },
+  {
+    "id": 76,
+    "start": 262.59,
+    "end": 268.31,
+    "text": "วิศวกรต้องสามารถสื่อสารกลับไปได้ว่า นั่นหมายถึงต้นทุนที่สูงขึ้นมหาศาล",
+    "th": "วิศวกรต้องสามารถสื่อสารกลับไปได้ว่า นั่นหมายถึงต้นทุนที่สูงขึ้นมหาศาล",
+    "en": "engineers must communicate that this implies a massive exponential cost."
+  },
+  {
+    "id": 77,
+    "start": 268.31,
+    "end": 276.03,
+    "text": "จึงต้องแบ่งระบบออกเป็น Tier เช่น ระบบค้นหา ตะกร้าสินค้า และชำระเงิน เป็น Tier 1 ที่มี 4 Nines",
+    "th": "จึงต้องแบ่งระบบออกเป็น Tier เช่น ระบบค้นหา ตะกร้าสินค้า และชำระเงิน เป็น Tier 1 ที่มี 4 Nines",
+    "en": "Systems must be tiered: Search, Cart, and Checkout as Tier 1 with 4 Nines;"
+  },
+  {
+    "id": 78,
+    "start": 276.03,
+    "end": 279.76,
+    "text": "ส่วนระบบแนะนำสินค้าอาจเป็น Tier 2 ที่ 3 Nines",
+    "th": "ส่วนระบบแนะนำสินค้าอาจเป็น Tier 2 ที่ 3 Nines",
+    "en": "whereas recommendation engines can be Tier 2 with 3 Nines."
+  },
+  {
+    "id": 79,
+    "start": 279.76,
+    "end": 285.4,
+    "text": "นี่คือตัวอย่างของการสื่อสาร Trade-off ให้ธุรกิจเข้าใจอย่างแท้จริงค่ะ",
+    "th": "นี่คือตัวอย่างของการสื่อสาร Trade-off ให้ธุรกิจเข้าใจอย่างแท้จริงค่ะ",
+    "en": "This exemplifies communicating trade-offs clearly to stakeholders."
+  },
+  {
+    "id": 80,
+    "start": 285.4,
+    "end": 289.29,
+    "text": "ในยุคนี้ Gen AI ทำหน้าที่เปรียบเสมือนคอมไพเลอร์",
+    "th": "ในยุคนี้ Gen AI ทำหน้าที่เปรียบเสมือนคอมไพเลอร์",
+    "en": "In this era, Gen AI behaves like a compiler."
+  },
+  {
+    "id": 81,
+    "start": 289.29,
+    "end": 293.68,
+    "text": "แต่เดิมคอมไพเลอร์แปลงภาษาที่แม่นยำไปเป็น Machine Code",
+    "th": "แต่เดิมคอมไพเลอร์แปลงภาษาที่แม่นยำไปเป็น Machine Code",
+    "en": "Traditional compilers translate precise syntax into machine code,"
+  },
+  {
+    "id": 82,
+    "start": 293.68,
+    "end": 298.97,
+    "text": "แต่ทุกวันนี้เราใช้ภาษาธรรมชาติที่คลุมเครือมาสั่งให้ AI สร้างโค้ด",
+    "th": "แต่ทุกวันนี้เราใช้ภาษาธรรมชาติที่คลุมเครือมาสั่งให้ AI สร้างโค้ด",
+    "en": "but today we use ambiguous natural language to prompt AI into generating code."
+  },
+  {
+    "id": 83,
+    "start": 298.97,
+    "end": 304.27,
+    "text": "ความท้าทายจึงอยู่ที่เราจะสื่อสารความต้องการอย่างรัดกุมได้อย่างไร",
+    "th": "ความท้าทายจึงอยู่ที่เราจะสื่อสารความต้องการอย่างรัดกุมได้อย่างไร",
+    "en": "The challenge is communicating intent with uncompromising rigor."
+  },
+  {
+    "id": 84,
+    "start": 304.27,
+    "end": 307.91,
+    "text": "แนวทางอย่าง Specification-Driven Development",
+    "th": "แนวทางอย่าง Specification-Driven Development",
+    "en": "Approaches like Specification-Driven Development"
+  },
+  {
+    "id": 85,
+    "start": 307.91,
+    "end": 314.45,
+    "text": "และการใช้ Automated Reasoning รวมถึง Formal Verification จึงทวีความสำคัญยิ่งยวด",
+    "th": "และการใช้ Automated Reasoning รวมถึง Formal Verification จึงทวีความสำคัญยิ่งยวด",
+    "en": "and Automated Reasoning with Formal Verification become mission-critical,"
+  },
+  {
+    "id": 86,
+    "start": 314.45,
+    "end": 321.9,
+    "text": "เพื่อพิสูจน์ให้มั่นใจว่าสิ่งที่ระบบสร้างออกมานั้น ตรงกับเจตนาและความปลอดภัยอย่างแท้จริงค่ะ",
+    "th": "เพื่อพิสูจน์ให้มั่นใจว่าสิ่งที่ระบบสร้างออกมานั้น ตรงกับเจตนาและความปลอดภัยอย่างแท้จริงค่ะ",
+    "en": "mathematically proving that generated systems align with intent and security."
+  },
+  {
+    "id": 87,
+    "start": 321.9,
+    "end": 327.47,
+    "text": "เข้าสู่ส่วนที่ 2 ค่ะ Architecture & Rigor: You Build It, You Own It",
+    "th": "เข้าสู่ส่วนที่ 2 ค่ะ Architecture & Rigor: You Build It, You Own It",
+    "en": "Entering Part 2: Architecture & Rigor: You Build It, You Own It."
+  },
+  {
+    "id": 88,
+    "start": 327.47,
+    "end": 332.63,
+    "text": "เราจะมาเจาะลึกวัฒนธรรมความเป็นเจ้าของ การป้องกันหนี้การตรวจสอบ",
+    "th": "เราจะมาเจาะลึกวัฒนธรรมความเป็นเจ้าของ การป้องกันหนี้การตรวจสอบ",
+    "en": "We will explore ownership culture, mitigating verification debt,"
+  },
+  {
+    "id": 89,
+    "start": 332.63,
+    "end": 337.71,
+    "text": "นวัตกรรมสถาปัตยกรรม Serverless และความมั่นคงปลอดภัยยุคควอนตัม",
+    "th": "นวัตกรรมสถาปัตยกรรม Serverless และความมั่นคงปลอดภัยยุคควอนตัม",
+    "en": "serverless architecture innovations, and quantum-safe cryptography,"
+  },
+  {
+    "id": 90,
+    "start": 337.71,
+    "end": 342.7,
+    "text": "เพื่อให้แน่ใจว่าระบบของเราพร้อมรับมือกับความท้าทายในอนาคตค่ะ",
+    "th": "เพื่อให้แน่ใจว่าระบบของเราพร้อมรับมือกับความท้าทายในอนาคตค่ะ",
+    "en": "ensuring our systems stand ready for future resilience."
+  },
+  {
+    "id": 91,
+    "start": 342.7,
+    "end": 346.43,
+    "text": "คุณลักษณะที่สี่คือ 'You Build It, You Own It'",
+    "th": "คุณลักษณะที่สี่คือ 'You Build It, You Own It'",
+    "en": "The fourth attribute is 'You Build It, You Own It'."
+  },
+  {
+    "id": 92,
+    "start": 346.43,
+    "end": 350.99,
+    "text": "เครื่องมือ AI ไม่ได้รับผิดชอบระบบ แต่คุณคือผู้รับผิดชอบ",
+    "th": "เครื่องมือ AI ไม่ได้รับผิดชอบระบบ แต่คุณคือผู้รับผิดชอบ",
+    "en": "AI tools are not responsible for your system—you are."
+  },
+  {
+    "id": 93,
+    "start": 350.99,
+    "end": 357.29,
+    "text": "ดร. เวอร์เนอร์ เตือนว่าการเขียนโค้ดโดยไม่ตรวจดูผลลัพธ์ หรือ Vibe Coding นั้น",
+    "th": "ดร. เวอร์เนอร์ เตือนว่าการเขียนโค้ดโดยไม่ตรวจดูผลลัพธ์ หรือ Vibe Coding นั้น",
+    "en": "Dr. Werner cautions that coding without verifying output—Vibe Coding—"
+  },
+  {
+    "id": 94,
+    "start": 357.29,
+    "end": 364.09,
+    "text": "ไม่ต่างจากการเล่นการพนัน และสิ่งที่ตามมาคือ 'Verification Debt' หรือหนี้การตรวจสอบ",
+    "th": "ไม่ต่างจากการเล่นการพนัน และสิ่งที่ตามมาคือ 'Verification Debt' หรือหนี้การตรวจสอบ",
+    "en": "is like gambling, accumulating dangerous Verification Debt."
+  },
+  {
+    "id": 95,
+    "start": 364.09,
+    "end": 370.06,
+    "text": "เพราะ AI สร้างโค้ดได้เร็วระดับวินาที แต่ความเข้าใจของมนุษย์ไม่ได้เร็วตาม",
+    "th": "เพราะ AI สร้างโค้ดได้เร็วระดับวินาที แต่ความเข้าใจของมนุษย์ไม่ได้เร็วตาม",
+    "en": "AI creates code in seconds, yet human comprehension cannot keep pace."
+  },
+  {
+    "id": 96,
+    "start": 370.06,
+    "end": 376.85,
+    "text": "ทางแก้คือการสร้าง 'กลไก (Mechanism)' เช่นเดียวกับสายดึง Andon Cord ในโรงงานโตโยต้า",
+    "th": "ทางแก้คือการสร้าง 'กลไก (Mechanism)' เช่นเดียวกับสายดึง Andon Cord ในโรงงานโตโยต้า",
+    "en": "The solution is creating strict Mechanisms like the Toyota Andon Cord,"
+  },
+  {
+    "id": 97,
+    "start": 376.85,
+    "end": 381.0,
+    "text": "และการรีวิวโค้ดอย่างเข้มงวดก่อนขึ้น Production ค่ะ",
+    "th": "และการรีวิวโค้ดอย่างเข้มงวดก่อนขึ้น Production ค่ะ",
+    "en": "enforcing rigorous code review before production deployment."
+  },
+  {
+    "id": 98,
+    "start": 381.0,
+    "end": 385.16,
+    "text": "คุณลักษณะที่ห้าคือ 'The Polymath' หรือนักพัฒนาพหูสูต",
+    "th": "คุณลักษณะที่ห้าคือ 'The Polymath' หรือนักพัฒนาพหูสูต",
+    "en": "The fifth attribute is 'The Polymath Builder'."
+  },
+  {
+    "id": 99,
+    "start": 385.16,
+    "end": 389.88,
+    "text": "ในอดีต องค์กรมักให้รางวัลเฉพาะผู้เชี่ยวชาญเฉพาะทางในแนวดิ่ง",
+    "th": "ในอดีต องค์กรมักให้รางวัลเฉพาะผู้เชี่ยวชาญเฉพาะทางในแนวดิ่ง",
+    "en": "Traditionally, organizations rewarded solely vertical specialists."
+  },
+  {
+    "id": 100,
+    "start": 389.88,
+    "end": 395.24,
+    "text": "แต่ในโลกซอฟต์แวร์ยุคใหม่ นักพัฒนาที่ดีต้องมีทั้งความลึกและความกว้าง",
+    "th": "แต่ในโลกซอฟต์แวร์ยุคใหม่ นักพัฒนาที่ดีต้องมีทั้งความลึกและความกว้าง",
+    "en": "Yet in modern software, great builders possess both depth and breadth."
+  },
+  {
+    "id": 101,
+    "start": 395.24,
+    "end": 402.68,
+    "text": "คุณเขียน Business Logic แต่คุณเข้าใจการทำงานของ Database เพื่อป้องกันปัญหา Table Scan หรือไม่",
+    "th": "คุณเขียน Business Logic แต่คุณเข้าใจการทำงานของ Database เพื่อป้องกันปัญหา Table Scan หรือไม่",
+    "en": "Do you understand database behavior to prevent table scans?"
+  },
+  {
+    "id": 102,
+    "start": 402.68,
+    "end": 406.36,
+    "text": "คุณเข้าใจ Data Flow และ User Interface หรือไม่",
+    "th": "คุณเข้าใจ Data Flow และ User Interface หรือไม่",
+    "en": "Do you understand data flow and user interfaces?"
+  },
+  {
+    "id": 103,
+    "start": 406.36,
+    "end": 411.32,
+    "text": "องค์กรยุคใหม่ต้องสนับสนุนให้นักพัฒนามองเห็นภาพเชื่อมโยงรอบด้าน",
+    "th": "องค์กรยุคใหม่ต้องสนับสนุนให้นักพัฒนามองเห็นภาพเชื่อมโยงรอบด้าน",
+    "en": "Modern enterprises must foster broad systems awareness"
+  },
+  {
+    "id": 104,
+    "start": 411.32,
+    "end": 415.0,
+    "text": "เพื่อก้าวขึ้นเป็นสถาปนิกผู้นำการเปลี่ยนแปลงค่ะ",
+    "th": "เพื่อก้าวขึ้นเป็นสถาปนิกผู้นำการเปลี่ยนแปลงค่ะ",
+    "en": "to cultivate architects who lead transformative change."
+  },
+  {
+    "id": 105,
+    "start": 415.0,
+    "end": 420.51,
+    "text": "จากไดอะแกรมบนหน้าจอ ดร. เวอร์เนอร์ เล่าถึงจุดกำเนิดของ AWS Lambda",
+    "th": "จากไดอะแกรมบนหน้าจอ ดร. เวอร์เนอร์ เล่าถึงจุดกำเนิดของ AWS Lambda",
+    "en": "From the diagram on screen, Dr. Werner traces the genesis of AWS Lambda,"
+  },
+  {
+    "id": 106,
+    "start": 420.51,
+    "end": 426.1,
+    "text": "ที่เกิดจากปัญหาของลูกค้าที่ต้องเปิด EC2 ทิ้งไว้เพื่อรอประมวลผลไฟล์",
+    "th": "ที่เกิดจากปัญหาของลูกค้าที่ต้องเปิด EC2 ทิ้งไว้เพื่อรอประมวลผลไฟล์",
+    "en": "born from customers paying for idle EC2 instances waiting for files."
+  },
+  {
+    "id": 107,
+    "start": 426.1,
+    "end": 430.59,
+    "text": "เกิดเป็นระบบ Event-Driven ที่คิดเงินตามเวลาใช้งานจริง",
+    "th": "เกิดเป็นระบบ Event-Driven ที่คิดเงินตามเวลาใช้งานจริง",
+    "en": "This sparked event-driven serverless, charging strictly for execution."
+  },
+  {
+    "id": 108,
+    "start": 430.59,
+    "end": 433.64,
+    "text": "นวัตกรรมสำคัญคือ Firecracker MicroVM",
+    "th": "นวัตกรรมสำคัญคือ Firecracker MicroVM",
+    "en": "The breakthrough innovation was Firecracker MicroVMs,"
+  },
+  {
+    "id": 109,
+    "start": 433.64,
+    "end": 439.31,
+    "text": "ซึ่งช่วยแยก Isolation ของแต่ละฟังก์ชันด้วยความปลอดภัยระดับ Hardware",
+    "th": "ซึ่งช่วยแยก Isolation ของแต่ละฟังก์ชันด้วยความปลอดภัยระดับ Hardware",
+    "en": "providing lightweight isolation with hardware virtualization security,"
+  },
+  {
+    "id": 110,
+    "start": 439.31,
+    "end": 443.63,
+    "text": "และการพัฒนา SnapStart ที่ช่วยกู้คืน Memory Snapshot",
+    "th": "และการพัฒนา SnapStart ที่ช่วยกู้คืน Memory Snapshot",
+    "en": "along with SnapStart memory snapshotting"
+  },
+  {
+    "id": 111,
+    "start": 443.63,
+    "end": 451.0,
+    "text": "ทำให้ลดเวลา Cold Start จาก 15 วินาที เหลือเพียง 10 มิลลิวินาที เร็วขึ้นถึง 1500 เท่าค่ะ",
+    "th": "ทำให้ลดเวลา Cold Start จาก 15 วินาที เหลือเพียง 10 มิลลิวินาที เร็วขึ้นถึง 1500 เท่าค่ะ",
+    "en": "slashing cold starts from 15 seconds to just 10 milliseconds—a 1500x speedup."
+  },
+  {
+    "id": 112,
+    "start": 451.0,
+    "end": 456.21,
+    "text": "ในแง่ของสเกล สัจธรรมสำคัญคือ 'ความเรียบง่ายคือหัวใจของความเสถียร'",
+    "th": "ในแง่ของสเกล สัจธรรมสำคัญคือ 'ความเรียบง่ายคือหัวใจของความเสถียร'",
+    "en": "At hyperscale, the fundamental truth is: 'Simplicity is the heart of reliability'."
+  },
+  {
+    "id": 113,
+    "start": 456.21,
+    "end": 462.78,
+    "text": "เกมยักษ์ใหญ่อย่าง Fortnite หรือ Supercell ต้องรองรับผู้เล่น 10 ล้านคนตั้งแต่วันแรก",
+    "th": "เกมยักษ์ใหญ่อย่าง Fortnite หรือ Supercell ต้องรองรับผู้เล่น 10 ล้านคนตั้งแต่วันแรก",
+    "en": "Global titles like Fortnite or Supercell must support 10 million players on Day 1."
+  },
+  {
+    "id": 114,
+    "start": 462.78,
+    "end": 469.02,
+    "text": "การออกแบบเพื่อรองรับสเกลจึงต้องเลือกใช้คอมโพเนนต์ที่สเกลได้อิสระ เช่น DynamoDB",
+    "th": "การออกแบบเพื่อรองรับสเกลจึงต้องเลือกใช้คอมโพเนนต์ที่สเกลได้อิสระ เช่น DynamoDB",
+    "en": "Architecting for scale demands independently scaling primitives like DynamoDB,"
+  },
+  {
+    "id": 115,
+    "start": 469.02,
+    "end": 474.39,
+    "text": "และการเลือกภาษาโปรแกรมอย่าง Rust ที่ให้ทั้งความปลอดภัยในหน่วยความจำ",
+    "th": "และการเลือกภาษาโปรแกรมอย่าง Rust ที่ให้ทั้งความปลอดภัยในหน่วยความจำ",
+    "en": "and adopting languages like Rust for memory safety"
+  },
+  {
+    "id": 116,
+    "start": 474.39,
+    "end": 480.8,
+    "text": "และประสิทธิภาพระดับ 20,000 ธุรกรรมต่อวินาที ช่วยประหยัดพลังงานและต้นทุนมหาศาลค่ะ",
+    "th": "และประสิทธิภาพระดับ 20,000 ธุรกรรมต่อวินาที ช่วยประหยัดพลังงานและต้นทุนมหาศาลค่ะ",
+    "en": "and 20,000 transactions per second, saving immense energy and infrastructure cost."
+  },
+  {
+    "id": 117,
+    "start": 480.8,
+    "end": 486.85,
+    "text": "ในมิติความมั่นคงปลอดภัย คำเตือนสำคัญคือเรื่อง 'Post-Quantum Cryptography'",
+    "th": "ในมิติความมั่นคงปลอดภัย คำเตือนสำคัญคือเรื่อง 'Post-Quantum Cryptography'",
+    "en": "In security, an urgent priority is 'Post-Quantum Cryptography'."
+  },
+  {
+    "id": 118,
+    "start": 486.85,
+    "end": 492.41,
+    "text": "ในอนาคตอันใกล้ คอมพิวเตอร์ควอนตัมอาจสามารถถอดรหัสมาตรฐานปัจจุบันได้",
+    "th": "ในอนาคตอันใกล้ คอมพิวเตอร์ควอนตัมอาจสามารถถอดรหัสมาตรฐานปัจจุบันได้",
+    "en": "Soon, quantum computers may decipher standard public-key encryption,"
+  },
+  {
+    "id": 119,
+    "start": 492.41,
+    "end": 497.47,
+    "text": "และกลุ่มผู้ไม่หวังดีกำลังใช้วิธี 'Harvest Now, Decrypt Later'",
+    "th": "และกลุ่มผู้ไม่หวังดีกำลังใช้วิธี 'Harvest Now, Decrypt Later'",
+    "en": "and adversaries are actively exploiting 'Harvest Now, Decrypt Later'—"
+  },
+  {
+    "id": 120,
+    "start": 497.47,
+    "end": 504.19,
+    "text": "คือดักเก็บข้อมูลสำคัญของคุณ เช่น ข้อมูลชีวมิติ และธุรกรรมการเงิน ไว้ตั้งแต่วันนี้",
+    "th": "คือดักเก็บข้อมูลสำคัญของคุณ เช่น ข้อมูลชีวมิติ และธุรกรรมการเงิน ไว้ตั้งแต่วันนี้",
+    "en": "intercepting sensitive biometric and financial records today"
+  },
+  {
+    "id": 121,
+    "start": 504.19,
+    "end": 505.93,
+    "text": "เพื่อรอถอดรหัสในอนาคต",
+    "th": "เพื่อรอถอดรหัสในอนาคต",
+    "en": "to decrypt once quantum hardware arrives."
+  },
+  {
+    "id": 122,
+    "start": 505.93,
+    "end": 511.73,
+    "text": "องค์กรจึงต้องเริ่มนำมาตรฐาน Post-Quantum Encryption มาประยุกต์ใช้ทันที",
+    "th": "องค์กรจึงต้องเริ่มนำมาตรฐาน Post-Quantum Encryption มาประยุกต์ใช้ทันที",
+    "en": "Enterprises must transition to NIST Post-Quantum standards immediately;"
+  },
+  {
+    "id": 123,
+    "start": 511.73,
+    "end": 514.8,
+    "text": "อย่ารอให้ถึงวันที่ข้อมูลถูกถอดรหัสค่ะ",
+    "th": "อย่ารอให้ถึงวันที่ข้อมูลถูกถอดรหัสค่ะ",
+    "en": "do not wait until the day your data is compromised."
+  },
+  {
+    "id": 124,
+    "start": 514.8,
+    "end": 519.25,
+    "text": "ประเด็นสุดท้ายในอนาคตของ AI คือ 'Culture-Aware AI'",
+    "th": "ประเด็นสุดท้ายในอนาคตของ AI คือ 'Culture-Aware AI'",
+    "en": "Our final forward-looking topic in AI is 'Culture-Aware AI'."
+  },
+  {
+    "id": 125,
+    "start": 519.25,
+    "end": 524.42,
+    "text": "ภาษาไม่ได้มีเพียงแค่คำศัพท์ แต่มีบริบทและมารยาททางวัฒนธรรม",
+    "th": "ภาษาไม่ได้มีเพียงแค่คำศัพท์ แต่มีบริบทและมารยาททางวัฒนธรรม",
+    "en": "Language is far more than vocabulary; it embodies cultural nuance and etiquette."
+  },
+  {
+    "id": 126,
+    "start": 524.42,
+    "end": 529.32,
+    "text": "การแปลตรงตัวผ่านโมเดลต่างประเทศอาจขัดต่อค่านิยมท้องถิ่น",
+    "th": "การแปลตรงตัวผ่านโมเดลต่างประเทศอาจขัดต่อค่านิยมท้องถิ่น",
+    "en": "Literal translations by global models often clash with local traditions."
+  },
+  {
+    "id": 127,
+    "start": 529.32,
+    "end": 535.55,
+    "text": "หากคุณต้องการสร้างระบบที่ผู้คนไว้วางใจ ระบบนั้นต้องเข้าใจบริบทเฉพาะตัว",
+    "th": "หากคุณต้องการสร้างระบบที่ผู้คนไว้วางใจ ระบบนั้นต้องเข้าใจบริบทเฉพาะตัว",
+    "en": "If you want to build systems people trust, they must respect local context,"
+  },
+  {
+    "id": 128,
+    "start": 535.55,
+    "end": 542.77,
+    "text": "ซึ่งเป็นเหตุผลที่โมเดลภาษาในแต่ละภูมิภาค เช่น ในไทย สิงคโปร์ ญี่ปุ่น และเกาหลีใต้",
+    "th": "ซึ่งเป็นเหตุผลที่โมเดลภาษาในแต่ละภูมิภาค เช่น ในไทย สิงคโปร์ ญี่ปุ่น และเกาหลีใต้",
+    "en": "which is why regional language models across Thailand, Singapore, Japan, and Korea"
+  },
+  {
+    "id": 129,
+    "start": 542.77,
+    "end": 549.0,
+    "text": "กำลังเติบโตเพื่อสร้าง Sovereign AI ที่ตอบโจทย์คนในสังคมอย่างแท้จริงค่ะ",
+    "th": "กำลังเติบโตเพื่อสร้าง Sovereign AI ที่ตอบโจทย์คนในสังคมอย่างแท้จริงค่ะ",
+    "en": "are flourishing to deliver Sovereign AI tailored to their societies."
+  },
+  {
+    "id": 130,
+    "start": 549.0,
+    "end": 554.52,
+    "text": "โดยสรุปแล้ว การเป็น Renaissance Builder คือการรักษาความกระหายใคร่รู้",
+    "th": "โดยสรุปแล้ว การเป็น Renaissance Builder คือการรักษาความกระหายใคร่รู้",
+    "en": "In conclusion, being a Renaissance Builder means sustaining curiosity,"
+  },
+  {
+    "id": 131,
+    "start": 554.52,
+    "end": 558.66,
+    "text": "คิดเชิงระบบ สื่อสารด้วยหลักการแรก มีความเป็นเจ้าของ",
+    "th": "คิดเชิงระบบ สื่อสารด้วยหลักการแรก มีความเป็นเจ้าของ",
+    "en": "thinking in systems, communicating from first principles, taking ownership,"
+  },
+  {
+    "id": 132,
+    "start": 558.66,
+    "end": 561.26,
+    "text": "และเปิดกว้างเรียนรู้ในฐานะพหูสูต",
+    "th": "และเปิดกว้างเรียนรู้ในฐานะพหูสูต",
+    "en": "and learning continuously as a polymath."
+  },
+  {
+    "id": 133,
+    "start": 561.26,
+    "end": 564.83,
+    "text": "งานวิศวกรรมเป็นงานที่สร้างสิ่งใหม่ในทุกๆ วัน",
+    "th": "งานวิศวกรรมเป็นงานที่สร้างสิ่งใหม่ในทุกๆ วัน",
+    "en": "Engineering is the craft of creating something brand new every single day."
+  },
+  {
+    "id": 134,
+    "start": 564.83,
+    "end": 570.1,
+    "text": "ขอฝากข้อคิดของ ดร. เวอร์เนอร์ ไว้ว่า 'Keep Calm and Now Go Build'",
+    "th": "ขอฝากข้อคิดของ ดร. เวอร์เนอร์ ไว้ว่า 'Keep Calm and Now Go Build'",
+    "en": "As Dr. Werner Vogels leaves us with the inspiring words: 'Keep calm and now go build.'"
+  },
+  {
+    "id": 135,
+    "start": 570.1,
+    "end": 578.3,
+    "text": "และสำหรับผู้ที่สนใจศึกษาเพิ่มเติม สามารถรับฟังบทวิเคราะห์เจาะลึกผ่าน 2 พอดแคสต์พิเศษในหน้านี้ได้ทันที",
+    "th": "และสำหรับผู้ที่สนใจศึกษาเพิ่มเติม สามารถรับฟังบทวิเคราะห์เจาะลึกผ่าน 2 พอดแคสต์พิเศษในหน้านี้ได้ทันที",
+    "en": "For those who wish to study deeper, listen to the two deep-dive podcasts on this page."
+  },
+  {
+    "id": 136,
+    "start": 578.3,
+    "end": 579.6,
+    "text": "ขอบคุณทุกท่านค่ะ",
+    "th": "ขอบคุณทุกท่านค่ะ",
+    "en": "Thank you very much."
+  }
+]

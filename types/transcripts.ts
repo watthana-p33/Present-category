@@ -1,4 +1,4 @@
-import transcriptsData from '@/docs/references/ai-first-enterprise/transcripts.json';
+import transcriptsData from '@/docs/ai-first-enterprise/transcripts.json';
 
 export interface PresentationTranscript {
   id: string;

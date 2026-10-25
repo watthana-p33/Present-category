@@ -5,11 +5,13 @@ interface CardProps {
   iconBg?: string;
   iconColor?: string;
   title: string;
-  description: string;
+  description?: string;
   example?: string;
   tag?: string;
   className?: string;
   compact?: boolean;
+  variant?: string;
+  children?: React.ReactNode;
 }
 
 export function Card({
@@ -22,6 +24,8 @@ export function Card({
   tag,
   className = '',
   compact = false,
+  variant,
+  children,
 }: CardProps) {
   return (
     <div
@@ -48,9 +52,12 @@ export function Card({
       <h3 className={`font-bold text-slate-900 dark:text-white tracking-tight ${compact ? 'text-xs sm:text-sm mb-1' : 'text-base sm:text-lg mb-2'}`}>
         {title}
       </h3>
-      <p className={`text-slate-600 dark:text-slate-300 leading-relaxed flex-1 ${compact ? 'text-[11px] sm:text-xs' : 'text-xs sm:text-sm'}`}>
-        {description}
-      </p>
+      {description && (
+        <p className={`text-slate-600 dark:text-slate-300 leading-relaxed flex-1 ${compact ? 'text-[11px] sm:text-xs' : 'text-xs sm:text-sm'}`}>
+          {description}
+        </p>
+      )}
+      {children}
       {example && (
         <div className={`mt-2 pt-2 border-t border-slate-200/70 dark:border-white/10 ${compact ? 'text-[10.5px]' : 'text-xs'}`}>
           <div className="flex items-center gap-1.5 font-semibold text-slate-800 dark:text-slate-200 mb-0.5">

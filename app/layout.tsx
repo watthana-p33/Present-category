@@ -16,9 +16,19 @@ const notoThai = Noto_Sans_Thai({
   display: 'swap',
 });
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 export const metadata: Metadata = {
   title: 'Presentation Platform - Web Slides Hub',
   description: 'แพลตฟอร์มนำเสนอผลงานระดับองค์กรด้วย Next.js และ Tailwind CSS ในธีม Liquid Color',
+  icons: {
+    icon: [
+      { url: `${basePath}/favicon.svg`, type: 'image/svg+xml' },
+      { url: `${basePath}/favicon.ico`, sizes: '32x32' },
+    ],
+    shortcut: `${basePath}/favicon.svg`,
+    apple: `${basePath}/favicon.svg`,
+  },
 };
 
 export default function RootLayout({

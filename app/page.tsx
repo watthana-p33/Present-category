@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { presentationsList } from '@/presentations/data';
-import { ThemeToggle } from '@/components/presentation/ThemeToggle';
+import { ThemeToggle } from '@/components/presentation/deck';
 import {
   Presentation,
   ArrowRight,
@@ -21,7 +21,7 @@ export default function HomePage() {
 
       {/* Header */}
       <header className="border-b border-slate-200/80 dark:border-white/10 bg-white/75 dark:bg-slate-950/60 backdrop-blur-xl sticky top-0 z-20 transition-colors">
-        <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+        <div className="mx-auto px-6 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 via-indigo-600 to-fuchsia-600 dark:from-cyan-400 dark:via-blue-600 dark:to-fuchsia-600 text-white flex items-center justify-center shadow-md shadow-blue-500/25 dark:shadow-[0_0_20px_rgba(6,182,212,0.4)]">
               <Presentation className="w-5 h-5" />
@@ -46,7 +46,7 @@ export default function HomePage() {
       </header>
 
       {/* Main Content */}
-      <main className="flex-1 max-w-6xl w-full mx-auto px-6 py-12 relative z-10">
+      <main className="flex-1 max-w-7xl w-full mx-auto px-6 pt-12 relative z-10">
         {/* Hero Section */}
         <div className="mb-12 text-center md:text-left">
           <span className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider bg-blue-50 text-blue-700 border border-blue-200 shadow-xs dark:bg-cyan-500/10 dark:text-cyan-300 dark:border-cyan-400/30 mb-4 dark:shadow-[0_0_15px_rgba(6,182,212,0.2)] backdrop-blur-md">
@@ -58,9 +58,6 @@ export default function HomePage() {
               (Presentations Catalog)
             </span>
           </h2>
-          <p className="text-slate-600 dark:text-slate-300 text-base md:text-lg mt-3 max-w-2xl leading-relaxed">
-            แยกนำเสนออิสระตาม path (1 Path = 1 ชุดนำเสนอ) พร้อมระบบ Component ที่นำกลับมาใช้ซ้ำได้สะดวกและปรับแต่งด้วยสไตล์ Liquid Color
-          </p>
         </div>
 
         {/* Presentations List Grid */}
@@ -125,52 +122,6 @@ export default function HomePage() {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* How to add a new presentation Guide */}
-        <div className="glass-panel rounded-3xl p-8 text-slate-900 dark:text-white border border-slate-200/80 dark:border-white/15 shadow-sm dark:shadow-[0_8px_32px_0_rgba(0,0,0,0.5)] relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-500/5 via-indigo-500/5 to-fuchsia-500/5 dark:from-cyan-500/5 dark:via-indigo-500/5 dark:to-fuchsia-500/5 pointer-events-none" />
-          <div className="flex items-center gap-3 mb-6 relative z-10">
-            <div className="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 border border-blue-200 dark:bg-cyan-500/20 dark:border-cyan-400/30 flex items-center justify-center dark:text-cyan-300 shadow-sm dark:shadow-[0_0_15px_rgba(6,182,212,0.25)]">
-              <FileCode2 className="w-5 h-5" />
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-slate-900 dark:text-white">วิธีเพิ่มชุดนำเสนอใหม่ (1 Path = 1 ชุด)</h3>
-              <p className="text-slate-500 dark:text-slate-400 text-sm">ออกแบบโครงสร้างให้ขยายและเพิ่มชุดใหม่ได้ทันที</p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm relative z-10">
-            <div className="glass-panel-subtle border border-slate-200/80 dark:border-white/10 rounded-2xl p-5">
-              <div className="flex items-center gap-2 text-blue-600 dark:text-cyan-300 font-bold mb-2">
-                <span className="w-6 h-6 rounded-full bg-blue-50 text-blue-700 border border-blue-200 dark:bg-cyan-500/20 dark:border-cyan-400/30 flex items-center justify-center text-xs">1</span>
-                <span>สร้างชุดสไลด์</span>
-              </div>
-              <p className="text-slate-600 dark:text-slate-300 text-xs leading-relaxed">
-                สร้างโฟลเดอร์ <code className="text-blue-600 dark:text-cyan-300 font-mono">presentations/[my-topic]/slides.tsx</code> และประกอบเนื้อหาโดยดึง Reusable Components เช่น <code className="text-blue-600 dark:text-cyan-300 font-mono">Slide</code>, <code className="text-blue-600 dark:text-cyan-300 font-mono">Card</code>, <code className="text-blue-600 dark:text-cyan-300 font-mono">QuoteBox</code>
-              </p>
-            </div>
-
-            <div className="glass-panel-subtle border border-slate-200/80 dark:border-white/10 rounded-2xl p-5">
-              <div className="flex items-center gap-2 text-indigo-600 dark:text-indigo-300 font-bold mb-2">
-                <span className="w-6 h-6 rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200 dark:bg-indigo-500/20 dark:border-indigo-400/30 flex items-center justify-center text-xs">2</span>
-                <span>ลงทะเบียนใน Data</span>
-              </div>
-              <p className="text-slate-600 dark:text-slate-300 text-xs leading-relaxed">
-                เพิ่ม metadata ใน <code className="text-indigo-600 dark:text-indigo-300 font-mono">presentations/data.ts</code> กำหนด slug, ชื่อเรื่อง, path และหมวดหมู่
-              </p>
-            </div>
-
-            <div className="glass-panel-subtle border border-slate-200/80 dark:border-white/10 rounded-2xl p-5">
-              <div className="flex items-center gap-2 text-fuchsia-600 dark:text-fuchsia-300 font-bold mb-2">
-                <span className="w-6 h-6 rounded-full bg-fuchsia-50 text-fuchsia-700 border border-fuchsia-200 dark:bg-fuchsia-500/20 dark:border-fuchsia-400/30 flex items-center justify-center text-xs">3</span>
-                <span>เข้าใช้งานผ่าน URL</span>
-              </div>
-              <p className="text-slate-600 dark:text-slate-300 text-xs leading-relaxed">
-                เข้าชมได้ทันทีตาม path เช่น <code className="text-fuchsia-600 dark:text-fuchsia-300 font-mono">/my-topic</code> หรือ <code className="text-fuchsia-600 dark:text-fuchsia-300 font-mono">/presentations/my-topic</code> พร้อมระบบควบคุมครบครัน
-              </p>
-            </div>
-          </div>
         </div>
       </main>
 

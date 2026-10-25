@@ -4,7 +4,9 @@ import React, { useState, useEffect, useCallback, useRef } from 'react';
 import Link from 'next/link';
 import { SlideControls } from './SlideControls';
 import { ThemeToggle } from './ThemeToggle';
-import { Home, X, HelpCircle, Layers, Sparkles } from 'lucide-react';
+import { Home, X, HelpCircle, Layers, Sparkles, Volume2, VolumeX, Subtitles, Check, ChevronDown } from 'lucide-react';
+import { NarrationContext, SubtitleLanguage, SubtitleSegment } from '../narration/NarrationContext';
+import { SubtitleOverlay } from '../narration/SubtitleOverlay';
 
 export interface SlideMetadata {
   section?: string;
@@ -20,29 +22,112 @@ interface SlideDeckProps {
   slidesMeta?: SlideMetadata[];
   initialSlide?: number;
   slug?: string;
+  timestamps?: { slide: number; startTime: number }[];
+  segments?: SubtitleSegment[];
 }
 
-export function SlideDeck({ title, slides, slidesMeta, initialSlide = 0 }: SlideDeckProps) {
+export function SlideDeck({ title, slides, slidesMeta, initialSlide = 0, slug, timestamps, segments }: SlideDeckProps) {
   const [currentIndex, setCurrentIndex] = useState(initialSlide);
   const [isFullscreen, setIsFullscreen] = useState(false);
   const [isOverviewOpen, setIsOverviewOpen] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
+  const [isNarrating, setIsNarrating] = useState(false);
+  const [currentTime, setCurrentTime] = useState<number>(0);
+  const [narrationSpeed, setNarrationSpeed] = useState<number>(1.2);
+  const [subtitleLanguage, setSubtitleLanguage] = useState<SubtitleLanguage>('th');
+  const [isSubtitleMenuOpen, setIsSubtitleMenuOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const subtitleMenuRef = useRef<HTMLDivElement>(null);
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
+  // Load saved subtitle preference
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      const saved = localStorage.getItem('presentation_subtitles');
+      if (saved === 'off' || saved === 'th' || saved === 'en') {
+        setSubtitleLanguage(saved as SubtitleLanguage);
+      }
+    }
+  }, []);
+
+  const handleSetSubtitleLanguage = useCallback((lang: SubtitleLanguage) => {
+    setSubtitleLanguage(lang);
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('presentation_subtitles', lang);
+    }
+    setIsSubtitleMenuOpen(false);
+  }, []);
+
+  // Close subtitle dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (subtitleMenuRef.current && !subtitleMenuRef.current.contains(e.target as Node)) {
+        setIsSubtitleMenuOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, []);
+
+  // Compute active subtitle text from segments based on currentTime
+  const currentSubtitle = React.useMemo(() => {
+    if (subtitleLanguage === 'off' || !segments || segments.length === 0) {
+      return null;
+    }
+    const activeSegment = segments.find(
+      (s) => currentTime >= s.start - 0.1 && currentTime < s.end + 0.15
+    );
+    if (!activeSegment) return null;
+    if (subtitleLanguage === 'th') {
+      return activeSegment.th || activeSegment.text || null;
+    }
+    if (subtitleLanguage === 'en') {
+      return activeSegment.en || activeSegment.text || null;
+    }
+    return null;
+  }, [subtitleLanguage, segments, currentTime]);
+
+  const cycleSpeed = useCallback(() => {
+    if (isNarrating) return;
+    const speeds = [1.0, 1.2, 1.35, 1.5];
+    setNarrationSpeed((prev) => {
+      const nextIdx = (speeds.indexOf(prev) + 1) % speeds.length;
+      const newSpeed = speeds[nextIdx] || 1.2;
+      if (audioRef.current) {
+        audioRef.current.playbackRate = newSpeed;
+      }
+      return newSpeed;
+    });
+  }, [isNarrating]);
 
   const totalSlides = slides.length;
   const currentMeta = slidesMeta?.[currentIndex];
 
   const goToSlide = useCallback((index: number) => {
+    if (isNarrating) return;
     setCurrentIndex(Math.max(0, Math.min(index, totalSlides - 1)));
     setIsOverviewOpen(false);
-  }, [totalSlides]);
+  }, [isNarrating, totalSlides]);
 
   const nextSlide = useCallback(() => {
+    if (isNarrating) return;
     setCurrentIndex((prev) => Math.min(prev + 1, totalSlides - 1));
-  }, [totalSlides]);
+  }, [isNarrating, totalSlides]);
 
   const prevSlide = useCallback(() => {
+    if (isNarrating) return;
     setCurrentIndex((prev) => Math.max(prev - 1, 0));
+  }, [isNarrating]);
+
+  const toggleNarrating = useCallback(() => {
+    setIsNarrating((prev) => {
+      const next = !prev;
+      if (next) {
+        setIsOverviewOpen(false);
+      }
+      return next;
+    });
   }, []);
 
   const toggleFullscreen = useCallback(() => {
@@ -71,21 +156,21 @@ export function SlideDeck({ title, slides, slidesMeta, initialSlide = 0 }: Slide
         case 'PageDown':
         case ' ':
           e.preventDefault();
-          nextSlide();
+          if (!isNarrating) nextSlide();
           break;
         case 'ArrowLeft':
         case 'PageUp':
         case 'Backspace':
           e.preventDefault();
-          prevSlide();
+          if (!isNarrating) prevSlide();
           break;
         case 'Home':
           e.preventDefault();
-          goToSlide(0);
+          if (!isNarrating) goToSlide(0);
           break;
         case 'End':
           e.preventDefault();
-          goToSlide(totalSlides - 1);
+          if (!isNarrating) goToSlide(totalSlides - 1);
           break;
         case 'f':
         case 'F':
@@ -95,7 +180,19 @@ export function SlideDeck({ title, slides, slidesMeta, initialSlide = 0 }: Slide
         case 'o':
         case 'O':
           e.preventDefault();
-          setIsOverviewOpen((prev) => !prev);
+          if (!isNarrating) setIsOverviewOpen((prev) => !prev);
+          break;
+        case 'a':
+        case 'A':
+          e.preventDefault();
+          toggleNarrating();
+          break;
+        case 'c':
+        case 'C':
+          e.preventDefault();
+          handleSetSubtitleLanguage(
+            subtitleLanguage === 'th' ? 'en' : subtitleLanguage === 'en' ? 'off' : 'th'
+          );
           break;
         case '?':
           e.preventDefault();
@@ -110,7 +207,7 @@ export function SlideDeck({ title, slides, slidesMeta, initialSlide = 0 }: Slide
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [nextSlide, prevSlide, goToSlide, totalSlides, toggleFullscreen, isOverviewOpen, showHelp]);
+  }, [nextSlide, prevSlide, goToSlide, totalSlides, toggleFullscreen, isOverviewOpen, showHelp, toggleNarrating, isNarrating, subtitleLanguage, handleSetSubtitleLanguage]);
 
   // Fullscreen change listener
   useEffect(() => {
@@ -121,6 +218,95 @@ export function SlideDeck({ title, slides, slidesMeta, initialSlide = 0 }: Slide
     document.addEventListener('fullscreenchange', handleFullscreenChange);
     return () => document.removeEventListener('fullscreenchange', handleFullscreenChange);
   }, []);
+
+  // Audio Narration Refs & State
+  const currentIndexRef = useRef(currentIndex);
+  currentIndexRef.current = currentIndex;
+
+  const isAutoAdvancingRef = useRef(false);
+
+  const narrationSpeedRef = useRef(narrationSpeed);
+  narrationSpeedRef.current = narrationSpeed;
+
+  // 1. Full Audio Lifecycle Player (Timestamp Sync)
+  useEffect(() => {
+    if (!isNarrating || !slug) {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
+      return;
+    }
+
+    if (timestamps && timestamps.length > 0) {
+      const fullAudioUrl = `${basePath}/audio/${slug}/${slug}.mp3`;
+      const fullAudio = new Audio(fullAudioUrl);
+      fullAudio.playbackRate = narrationSpeedRef.current;
+      audioRef.current = fullAudio;
+
+      const startTime = timestamps[currentIndexRef.current]?.startTime ?? 0;
+      fullAudio.currentTime = startTime;
+
+      fullAudio.play().catch((err) => {
+        console.warn('Audio playback failed or prevented:', err);
+        setIsNarrating(false);
+      });
+
+      fullAudio.ontimeupdate = () => {
+        if (!timestamps) return;
+        const currentSec = fullAudio.currentTime;
+        setCurrentTime(currentSec);
+        let activeIndex = 0;
+        for (let i = 0; i < timestamps.length; i++) {
+          if (currentSec >= timestamps[i].startTime) {
+            activeIndex = i;
+          } else {
+            break;
+          }
+        }
+        if (activeIndex !== currentIndexRef.current && activeIndex < totalSlides) {
+          isAutoAdvancingRef.current = true;
+          setCurrentIndex(activeIndex);
+        }
+      };
+
+      fullAudio.onended = () => {
+        setIsNarrating(false);
+        setCurrentTime(0);
+      };
+
+      return () => {
+        fullAudio.pause();
+        audioRef.current = null;
+        setCurrentTime(0);
+      };
+    }
+  }, [isNarrating, slug, totalSlides, basePath, timestamps]);
+
+  // 2. Manual Slide Navigation Seeking during Full Audio Mode
+  useEffect(() => {
+    if (isAutoAdvancingRef.current) {
+      // Auto-advanced by ontimeupdate -> keep playing smoothly, do not seek!
+      isAutoAdvancingRef.current = false;
+      return;
+    }
+
+    // User clicked to navigate -> seek audio to this slide's start time!
+    if (isNarrating && audioRef.current && timestamps) {
+      const targetStart = timestamps[currentIndex]?.startTime ?? 0;
+      audioRef.current.currentTime = targetStart;
+      if (audioRef.current.paused) {
+        audioRef.current.play().catch(() => {});
+      }
+    }
+  }, [currentIndex, isNarrating, timestamps]);
+
+  // 4. Dynamic Playback Speed Update
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.playbackRate = narrationSpeed;
+    }
+  }, [narrationSpeed]);
 
   // Sync hash
   useEffect(() => {
@@ -150,10 +336,20 @@ export function SlideDeck({ title, slides, slidesMeta, initialSlide = 0 }: Slide
     : [];
 
   return (
-    <div
-      ref={containerRef}
-      className="relative w-screen h-screen bg-slate-50 dark:bg-[#070b14] bg-liquid-canvas text-slate-800 dark:text-slate-100 flex flex-col overflow-hidden select-none transition-colors duration-300"
+    <NarrationContext.Provider
+      value={{
+        isNarrating,
+        currentTime,
+        subtitleLanguage,
+        setSubtitleLanguage: handleSetSubtitleLanguage,
+        currentSubtitle,
+        segments,
+      }}
     >
+      <div
+        ref={containerRef}
+        className="relative w-screen h-screen bg-slate-50 dark:bg-[#070b14] bg-liquid-canvas text-slate-800 dark:text-slate-100 flex flex-col overflow-hidden select-none transition-colors duration-300"
+      >
       {/* Ambient Liquid Color Orbs (Stationary, Calm Glow) */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none z-0">
         <div className="absolute -top-[20%] -left-[10%] w-[55vw] h-[55vw] rounded-full bg-gradient-to-br from-indigo-400/20 via-purple-300/15 to-transparent dark:from-indigo-600/20 dark:via-purple-600/15 blur-3xl opacity-80" />
@@ -193,6 +389,134 @@ export function SlideDeck({ title, slides, slidesMeta, initialSlide = 0 }: Slide
         </div>
 
         <div className="flex items-center gap-2 shrink-0">
+          {/* Auto-Narration Toggle & Speed Button */}
+          {slug && (
+            <div className="inline-flex items-center gap-1.5">
+              <button
+                onClick={toggleNarrating}
+                className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold transition-all shadow-xs ${
+                  isNarrating
+                    ? 'bg-rose-50 text-rose-700 border border-rose-200 dark:bg-rose-500/20 dark:text-rose-300 dark:border-rose-500/30'
+                    : 'bg-blue-50 text-blue-700 border border-blue-200 hover:bg-blue-100 dark:bg-cyan-500/15 dark:text-cyan-300 dark:border-cyan-400/30 dark:hover:bg-cyan-500/25'
+                }`}
+                title="เปิด/ปิดการบรรยายเสียงอัตโนมัติ (A)"
+                aria-label="Toggle Auto Narration"
+              >
+                {isNarrating ? (
+                  <>
+                    <span className="w-2 h-2 rounded-full bg-rose-500 animate-ping inline-block" />
+                    <VolumeX className="w-3.5 h-3.5 text-rose-600 dark:text-rose-400" />
+                    <span className="hidden sm:inline">หยุดบรรยาย</span>
+                  </>
+                ) : (
+                  <>
+                    <Volume2 className="w-3.5 h-3.5 text-blue-600 dark:text-cyan-400" />
+                    <span className="hidden sm:inline">บรรยายอัตโนมัติ</span>
+                  </>
+                )}
+              </button>
+
+              {/* Speed Selector Badge */}
+              <button
+                onClick={cycleSpeed}
+                disabled={isNarrating}
+                className={`px-2 py-1 rounded-full text-xs font-bold border transition-all shadow-2xs ${
+                  isNarrating
+                    ? 'opacity-40 cursor-not-allowed bg-slate-100 text-slate-400 border-slate-200 dark:bg-white/5 dark:text-slate-500 dark:border-white/5 pointer-events-none'
+                    : 'bg-slate-100 hover:bg-slate-200 dark:bg-white/10 dark:hover:bg-white/20 text-slate-700 dark:text-cyan-300 border-slate-300/50 dark:border-white/10'
+                }`}
+                title={
+                  isNarrating
+                    ? 'ไม่สามารถปรับความเร็วขณะบรรยายได้ (กรุณากดหยุดบรรยายก่อน)'
+                    : 'ปรับความเร็วการบรรยาย (คลิกเพื่อเปลี่ยน 1.0x / 1.2x / 1.35x / 1.5x)'
+                }
+                aria-label="Change Narration Speed"
+              >
+                {narrationSpeed}x
+              </button>
+
+              {/* Subtitles Language Menu Selector */}
+              {segments && segments.length > 0 && (
+                <div className="relative inline-flex items-center" ref={subtitleMenuRef}>
+                  <button
+                    onClick={() => setIsSubtitleMenuOpen((prev) => !prev)}
+                    className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold border transition-all shadow-2xs ${
+                      subtitleLanguage !== 'off'
+                        ? 'bg-indigo-50 text-indigo-700 border-indigo-200 hover:bg-indigo-100 dark:bg-indigo-500/20 dark:text-cyan-300 dark:border-indigo-500/30 dark:hover:bg-indigo-500/30'
+                        : 'bg-slate-100 hover:bg-slate-200 dark:bg-white/10 dark:hover:bg-white/20 text-slate-500 dark:text-slate-400 border-slate-300/50 dark:border-white/10'
+                    }`}
+                    title="ตั้งค่าคำบรรยาย (Subtitles - กด C เพื่อสลับเร็ว)"
+                    aria-label="Toggle Subtitles Menu"
+                  >
+                    <Subtitles className="w-3.5 h-3.5 text-indigo-600 dark:text-cyan-400" />
+                    <span className="text-[11px] font-bold">
+                      {subtitleLanguage === 'th' ? 'CC: ไทย' : subtitleLanguage === 'en' ? 'CC: EN' : 'CC: ปิด'}
+                    </span>
+                    <ChevronDown className="w-3 h-3 opacity-60" />
+                  </button>
+
+                  {/* Dropdown Menu */}
+                  {isSubtitleMenuOpen && (
+                    <div className="absolute right-0 top-full mt-2 w-52 bg-white/95 dark:bg-slate-900/95 backdrop-blur-xl border border-slate-200 dark:border-white/15 rounded-xl shadow-xl py-1.5 z-50 animate-in fade-in slide-in-from-top-1 text-xs">
+                      <div className="px-3 py-1 font-bold text-[10px] text-slate-400 dark:text-slate-500 uppercase tracking-wider">
+                        คำบรรยาย (Subtitles / CC)
+                      </div>
+                      <button
+                        onClick={() => handleSetSubtitleLanguage('th')}
+                        className={`w-full flex items-center justify-between px-3 py-2 text-left hover:bg-slate-100 dark:hover:bg-white/10 transition-colors ${
+                          subtitleLanguage === 'th'
+                            ? 'font-bold text-blue-600 dark:text-cyan-300 bg-blue-50/60 dark:bg-cyan-500/10'
+                            : 'text-slate-700 dark:text-slate-300'
+                        }`}
+                      >
+                        <span className="flex items-center gap-2">
+                          <span>🇹🇭</span>
+                          <span>คำบรรยายไทย (TH)</span>
+                        </span>
+                        {subtitleLanguage === 'th' && (
+                          <Check className="w-3.5 h-3.5 text-blue-600 dark:text-cyan-300" />
+                        )}
+                      </button>
+                      <button
+                        onClick={() => handleSetSubtitleLanguage('en')}
+                        className={`w-full flex items-center justify-between px-3 py-2 text-left hover:bg-slate-100 dark:hover:bg-white/10 transition-colors ${
+                          subtitleLanguage === 'en'
+                            ? 'font-bold text-indigo-600 dark:text-indigo-300 bg-indigo-50/60 dark:bg-indigo-500/10'
+                            : 'text-slate-700 dark:text-slate-300'
+                        }`}
+                      >
+                        <span className="flex items-center gap-2">
+                          <span>🇬🇧</span>
+                          <span>English Subtitles (EN)</span>
+                        </span>
+                        {subtitleLanguage === 'en' && (
+                          <Check className="w-3.5 h-3.5 text-indigo-600 dark:text-indigo-300" />
+                        )}
+                      </button>
+                      <div className="my-1 border-t border-slate-100 dark:border-white/10" />
+                      <button
+                        onClick={() => handleSetSubtitleLanguage('off')}
+                        className={`w-full flex items-center justify-between px-3 py-2 text-left hover:bg-slate-100 dark:hover:bg-white/10 transition-colors ${
+                          subtitleLanguage === 'off'
+                            ? 'font-bold text-rose-600 dark:text-rose-400 bg-rose-50/50 dark:bg-rose-500/10'
+                            : 'text-slate-500 dark:text-slate-400'
+                        }`}
+                      >
+                        <span className="flex items-center gap-2">
+                          <span className="w-4 text-center font-bold">✕</span>
+                          <span>ไม่แสดงคำบรรยาย (Off)</span>
+                        </span>
+                        {subtitleLanguage === 'off' && (
+                          <Check className="w-3.5 h-3.5 text-rose-600 dark:text-rose-400" />
+                        )}
+                      </button>
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          )}
+
           {/* Theme Toggle Button */}
           <ThemeToggle variant="minimal" />
 
@@ -204,9 +528,6 @@ export function SlideDeck({ title, slides, slidesMeta, initialSlide = 0 }: Slide
           >
             <HelpCircle className="w-4 h-4" />
           </button>
-          <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-slate-100 text-slate-700 border border-slate-200 dark:bg-white/5 dark:text-slate-300 dark:border-white/10 backdrop-blur-sm">
-            {currentIndex + 1} / {totalSlides}
-          </span>
         </div>
 
         {/* Top Progress bar with Chromatic Liquid Gradient */}
@@ -244,7 +565,10 @@ export function SlideDeck({ title, slides, slidesMeta, initialSlide = 0 }: Slide
           isFullscreen={isFullscreen}
           onToggleFullscreen={toggleFullscreen}
           isOverviewOpen={isOverviewOpen}
-          onToggleOverview={() => setIsOverviewOpen((prev) => !prev)}
+          onToggleOverview={() => {
+            if (!isNarrating) setIsOverviewOpen((prev) => !prev);
+          }}
+          isNarrating={isNarrating}
         />
       </div>
 
@@ -292,7 +616,10 @@ export function SlideDeck({ title, slides, slidesMeta, initialSlide = 0 }: Slide
                         <button
                           key={idx}
                           onClick={() => goToSlide(idx)}
+                          disabled={isNarrating}
                           className={`relative aspect-[16/10] rounded-2xl border transition-all p-3 text-left flex flex-col justify-between ${
+                            isNarrating ? 'cursor-not-allowed opacity-50' : ''
+                          } ${
                             idx === currentIndex
                               ? 'border-blue-500 bg-gradient-to-br from-blue-50 to-indigo-100 text-blue-900 shadow-md dark:border-fuchsia-400 dark:bg-gradient-to-br dark:from-indigo-950/80 dark:via-purple-900/60 dark:to-slate-900/90 dark:text-white dark:shadow-[0_0_25px_rgba(236,72,153,0.35)] scale-105 z-10'
                               : meta.isSectionCover
@@ -326,7 +653,10 @@ export function SlideDeck({ title, slides, slidesMeta, initialSlide = 0 }: Slide
                 <button
                   key={idx}
                   onClick={() => goToSlide(idx)}
+                  disabled={isNarrating}
                   className={`relative aspect-[16/10] rounded-2xl border transition-all p-3 text-left flex flex-col justify-between ${
+                    isNarrating ? 'cursor-not-allowed opacity-50' : ''
+                  } ${
                     idx === currentIndex
                       ? 'border-blue-500 bg-blue-50 text-blue-900 dark:border-fuchsia-400 dark:bg-slate-800 dark:text-white shadow-md'
                       : 'border-slate-200 bg-white text-slate-700 dark:border-white/10 dark:bg-slate-900/60 dark:text-slate-200'
@@ -387,6 +717,14 @@ export function SlideDeck({ title, slides, slidesMeta, initialSlide = 0 }: Slide
                 <span className="text-slate-600 dark:text-slate-300">เต็มหน้าจอ (Fullscreen)</span>
                 <span className="font-mono bg-slate-100 dark:bg-white/10 px-2 py-0.5 rounded text-xs text-slate-800 dark:text-slate-200">F</span>
               </div>
+              <div className="flex justify-between items-center py-2 border-b border-slate-200/60 dark:border-white/5">
+                <span className="text-slate-600 dark:text-slate-300">เปิด/ปิดเสียงบรรยายอัตโนมัติ</span>
+                <span className="font-mono bg-slate-100 dark:bg-white/10 px-2 py-0.5 rounded text-xs text-slate-800 dark:text-slate-200">A</span>
+              </div>
+              <div className="flex justify-between items-center py-2 border-b border-slate-200/60 dark:border-white/5">
+                <span className="text-slate-600 dark:text-slate-300">สลับคำบรรยาย (ไทย / EN / ปิด)</span>
+                <span className="font-mono bg-slate-100 dark:bg-white/10 px-2 py-0.5 rounded text-xs text-slate-800 dark:text-slate-200">C</span>
+              </div>
             </div>
             <button
               onClick={() => setShowHelp(false)}
@@ -397,6 +735,10 @@ export function SlideDeck({ title, slides, slidesMeta, initialSlide = 0 }: Slide
           </div>
         </div>
       )}
+
+      {/* Floating Subtitle Overlay Card */}
+      <SubtitleOverlay />
     </div>
+  </NarrationContext.Provider>
   );
 }

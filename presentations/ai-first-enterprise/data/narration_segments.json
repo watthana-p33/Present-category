@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 0,
+    "start": 0.0,
+    "end": 4.48,
+    "text": "สวัสดีค่ะ ยินดีต้อนรับทุกท่านเข้าสู่การบรรยายในหัวข้อ",
+    "th": "สวัสดีค่ะ ยินดีต้อนรับทุกท่านเข้าสู่การบรรยายในหัวข้อ",
+    "en": "Hello and welcome, everyone, to today's presentation on"
+  },
+  {
+    "id": 1,
+    "start": 4.48,
+    "end": 7.04,
+    "text": "อนาคตขององค์กรยุค AI",
+    "th": "อนาคตขององค์กรยุค AI",
+    "en": "The Future of Enterprise in the AI Era:"
+  },
+  {
+    "id": 2,
+    "start": 7.04,
+    "end": 9.2,
+    "text": "The AI-First Enterprise",
+    "th": "The AI-First Enterprise",
+    "en": "The AI-First Enterprise"
+  },
+  {
+    "id": 3,
+    "start": 9.2,
+    "end": 11.84,
+    "text": "วันนี้เราจะมาเจาะลึกวิสัยทัศน์",
+    "th": "วันนี้เราจะมาเจาะลึกวิสัยทัศน์",
+    "en": "Today, we will dive deep into the vision,"
+  },
+  {
+    "id": 4,
+    "start": 11.84,
+    "end": 13.44,
+    "text": "แนวโน้มเทคโนโลยี",
+    "th": "แนวโน้มเทคโนโลยี",
+    "en": "technology trends,"
+  },
+  {
+    "id": 5,
+    "start": 13.44,
+    "end": 15.76,
+    "text": "และการปรับตัวที่องค์กรต้องทำ",
+    "th": "และการปรับตัวที่องค์กรต้องทำ",
+    "en": "and the transformations organizations must undertake"
+  },
+  {
+    "id": 6,
+    "start": 15.76,
+    "end": 17.84,
+    "text": "เพื่อก้าวข้ามจากการใช้ AI",
+    "th": "เพื่อก้าวข้ามจากการใช้ AI",
+    "en": "to transcend using AI"
+  },
+  {
+    "id": 7,
+    "start": 17.84,
+    "end": 19.76,
+    "text": "เป็นเพียงเครื่องมือลดต้นทุน",
+    "th": "เป็นเพียงเครื่องมือลดต้นทุน",
+    "en": "merely as a cost-cutting tool,"
+  },
+  {
+    "id": 8,
+    "start": 19.76,
+    "end": 21.68,
+    "text": "สู่การเป็นองค์กรอัจฉริยะ",
+    "th": "สู่การเป็นองค์กรอัจฉริยะ",
+    "en": "towards becoming an intelligent enterprise"
+  },
+  {
+    "id": 9,
+    "start": 21.68,
+    "end": 24.32,
+    "text": "ที่พร้อมคว้าชัยชนะในยุคถัดไป",
+    "th": "ที่พร้อมคว้าชัยชนะในยุคถัดไป",
+    "en": "ready to seize victory in the next era."
+  },
+  {
+    "id": 10,
+    "start": 24.32,
+    "end": 26.64,
+    "text": "โครงสร้างสาระสำคัญในวันนี้",
+    "th": "โครงสร้างสาระสำคัญในวันนี้",
+    "en": "Our key agenda for today"
+  },
+  {
+    "id": 11,
+    "start": 26.64,
+    "end": 28.72,
+    "text": "แบ่งออกเป็น 3 ส่วนหลักด้วยกันค่ะ",
+    "th": "แบ่งออกเป็น 3 ส่วนหลักด้วยกันค่ะ",
+    "en": "is divided into three main parts."
+  },
+  {
+    "id": 12,
+    "start": 28.72,
+    "end": 30.12,
+    "text": "ส่วนแรกคือ",
+    "th": "ส่วนแรกคือ",
+    "en": "Part 1 is"
+  },
+  {
+    "id": 13,
+    "start": 30.12,
+    "end": 32.16,
+    "text": "The AI-First Enterprise",
+    "th": "The AI-First Enterprise",
+    "en": "The AI-First Enterprise:"
+  },
+  {
+    "id": 14,
+    "start": 32.16,
+    "end": 33.6,
+    "text": "การปรับ Mindset",
+    "th": "การปรับ Mindset",
+    "en": "shifting our mindset,"
+  },
+  {
+    "id": 15,
+    "start": 33.6,
+    "end": 35.6,
+    "text": "ก้าวข้ามกับดักประสิทธิภาพ",
+    "th": "ก้าวข้ามกับดักประสิทธิภาพ",
+    "en": "overcoming the efficiency trap,"
+  },
+  {
+    "id": 16,
+    "start": 35.6,
+    "end": 37.96,
+    "text": "และพัฒนา 5 ทักษะสำคัญ",
+    "th": "และพัฒนา 5 ทักษะสำคัญ",
+    "en": "and developing five essential skills."
+  },
+  {
+    "id": 17,
+    "start": 37.96,
+    "end": 39.44,
+    "text": "ส่วนที่สองคือ",
+    "th": "ส่วนที่สองคือ",
+    "en": "Part 2 is"
+  },
+  {
+    "id": 18,
+    "start": 39.44,
+    "end": 41.56,
+    "text": "Building a Solid Foundation",
+    "th": "Building a Solid Foundation",
+    "en": "Building a Solid Foundation:"
+  },
+  {
+    "id": 19,
+    "start": 41.56,
+    "end": 43.88,
+    "text": "การสร้างอธิปไตยทางข้อมูล",
+    "th": "การสร้างอธิปไตยทางข้อมูล",
+    "en": "establishing digital data sovereignty"
+  },
+  {
+    "id": 20,
+    "start": 44.08,
+    "end": 46.76,
+    "text": "และ 3 เสาหลักเทคโนโลยี",
+    "th": "และ 3 เสาหลักเทคโนโลยี",
+    "en": "and three core technology pillars."
+  },
+  {
+    "id": 21,
+    "start": 46.76,
+    "end": 48.36,
+    "text": "และส่วนที่สามคือ",
+    "th": "และส่วนที่สามคือ",
+    "en": "And Part 3 is"
+  },
+  {
+    "id": 22,
+    "start": 48.36,
+    "end": 50.52,
+    "text": "The Agentic AI Landscape",
+    "th": "The Agentic AI Landscape",
+    "en": "The Agentic AI Landscape:"
+  },
+  {
+    "id": 23,
+    "start": 50.52,
+    "end": 52.76,
+    "text": "ภูมิทัศน์ของ AI Agents",
+    "th": "ภูมิทัศน์ของ AI Agents",
+    "en": "the landscape of autonomous AI agents,"
+  },
+  {
+    "id": 24,
+    "start": 52.76,
+    "end": 55.0,
+    "text": "ระบบป้องกันความปลอดภัยเชิงรุก",
+    "th": "ระบบป้องกันความปลอดภัยเชิงรุก",
+    "en": "proactive multi-agent active defense,"
+  },
+  {
+    "id": 25,
+    "start": 55.0,
+    "end": 57.32,
+    "text": "และแนวปฏิบัติที่ดีในระดับองค์กรค่ะ",
+    "th": "และแนวปฏิบัติที่ดีในระดับองค์กรค่ะ",
+    "en": "and enterprise-grade best practices."
+  },
+  {
+    "id": 26,
+    "start": 57.32,
+    "end": 59.44,
+    "text": "เรามาเริ่มต้นกันที่ส่วนที่ 1 ค่ะ",
+    "th": "เรามาเริ่มต้นกันที่ส่วนที่ 1 ค่ะ",
+    "en": "Let us begin with Part 1:"
+  },
+  {
+    "id": 27,
+    "start": 59.44,
+    "end": 61.56,
+    "text": "The AI-First Enterprise",
+    "th": "The AI-First Enterprise",
+    "en": "The AI-First Enterprise."
+  },
+  {
+    "id": 28,
+    "start": 61.56,
+    "end": 63.44,
+    "text": "เราจะสำรวจการเปลี่ยนผ่าน",
+    "th": "เราจะสำรวจการเปลี่ยนผ่าน",
+    "en": "We will explore the transformation"
+  },
+  {
+    "id": 29,
+    "start": 63.44,
+    "end": 64.88,
+    "text": "จากเดิมที่มอง AI",
+    "th": "จากเดิมที่มอง AI",
+    "en": "from viewing AI"
+  },
+  {
+    "id": 30,
+    "start": 64.88,
+    "end": 66.68,
+    "text": "แค่ช่วยให้งานเสร็จเร็วขึ้น",
+    "th": "แค่ช่วยให้งานเสร็จเร็วขึ้น",
+    "en": "merely as a way to finish tasks faster,"
+  },
+  {
+    "id": 31,
+    "start": 66.88,
+    "end": 69.24,
+    "text": "สู่การออกแบบโมเดลธุรกิจใหม่",
+    "th": "สู่การออกแบบโมเดลธุรกิจใหม่",
+    "en": "towards designing innovative business models"
+  },
+  {
+    "id": 32,
+    "start": 69.24,
+    "end": 71.16,
+    "text": "และการปรับโครงสร้างองค์กร",
+    "th": "และการปรับโครงสร้างองค์กร",
+    "en": "and restructuring the organization"
+  },
+  {
+    "id": 33,
+    "start": 71.16,
+    "end": 72.92,
+    "text": "ให้ปลดปล่อยศักยภาพสูงสุด",
+    "th": "ให้ปลดปล่อยศักยภาพสูงสุด",
+    "en": "to unleash the ultimate potential"
+  },
+  {
+    "id": 34,
+    "start": 72.92,
+    "end": 74.92,
+    "text": "ของบุคลากรทุกคนค่ะ",
+    "th": "ของบุคลากรทุกคนค่ะ",
+    "en": "of every individual."
+  },
+  {
+    "id": 35,
+    "start": 74.92,
+    "end": 76.52,
+    "text": "กับดักแรกที่หลายองค์กร",
+    "th": "กับดักแรกที่หลายองค์กร",
+    "en": "The first trap many organizations"
+  },
+  {
+    "id": 36,
+    "start": 76.52,
+    "end": 77.56,
+    "text": "ติดอยู่คือ",
+    "th": "ติดอยู่คือ",
+    "en": "fall into is the"
+  },
+  {
+    "id": 37,
+    "start": 77.56,
+    "end": 79.32,
+    "text": "The Efficiency Trap",
+    "th": "The Efficiency Trap",
+    "en": "The Efficiency Trap."
+  },
+  {
+    "id": 38,
+    "start": 79.32,
+    "end": 80.32,
+    "text": "เรามักตื่นเต้น",
+    "th": "เรามักตื่นเต้น",
+    "en": "We often get excited"
+  },
+  {
+    "id": 39,
+    "start": 80.32,
+    "end": 83.4,
+    "text": "เมื่อ AI ช่วยลดเวลาทำงานจาก 2 ชั่วโมง",
+    "th": "เมื่อ AI ช่วยลดเวลาทำงานจาก 2 ชั่วโมง",
+    "en": "when AI slashes work from 2 hours"
+  },
+  {
+    "id": 40,
+    "start": 83.4,
+    "end": 85.56,
+    "text": "เหลือเพียง 35 วินาที",
+    "th": "เหลือเพียง 35 วินาที",
+    "en": "down to just 35 seconds."
+  },
+  {
+    "id": 41,
+    "start": 85.56,
+    "end": 87.96,
+    "text": "แต่คำถามสำคัญจาก Tony Loco",
+    "th": "แต่คำถามสำคัญจาก Tony Loco",
+    "en": "Yet the pivotal question from Tony Loco,"
+  },
+  {
+    "id": 42,
+    "start": 87.96,
+    "end": 90.48,
+    "text": "CEO ของ United Rentals คือ",
+    "th": "CEO ของ United Rentals คือ",
+    "en": "CEO of United Rentals, is:"
+  },
+  {
+    "id": 43,
+    "start": 90.48,
+    "end": 92.04,
+    "text": "เวลาที่ได้คืนมานั้น",
+    "th": "เวลาที่ได้คืนมานั้น",
+    "en": "Does the recovered time"
+  },
+  {
+    "id": 44,
+    "start": 92.04,
+    "end": 94.92,
+    "text": "สร้างคุณค่าทางธุรกิจใหม่จริงหรือไม่",
+    "th": "สร้างคุณค่าทางธุรกิจใหม่จริงหรือไม่",
+    "en": "truly generate new business value?"
+  },
+  {
+    "id": 45,
+    "start": 94.92,
+    "end": 97.44,
+    "text": "หากเวลานั้นถูกดูดซับกลับไปทำงาน",
+    "th": "หากเวลานั้นถูกดูดซับกลับไปทำงาน",
+    "en": "If that freed time is simply absorbed"
+  },
+  {
+    "id": 46,
+    "start": 97.44,
+    "end": 98.72,
+    "text": "หยุมหยิมเดิมๆ",
+    "th": "หยุมหยิมเดิมๆ",
+    "en": "back into routine, trivial tasks,"
+  },
+  {
+    "id": 47,
+    "start": 98.72,
+    "end": 100.64,
+    "text": "องค์กรก็จะไม่เติบโต",
+    "th": "องค์กรก็จะไม่เติบโต",
+    "en": "the organization will not grow."
+  },
+  {
+    "id": 48,
+    "start": 100.64,
+    "end": 102.88,
+    "text": "เราจึงต้องเปลี่ยน Mindset จาก Speed",
+    "th": "เราจึงต้องเปลี่ยน Mindset จาก Speed",
+    "en": "We must shift our mindset from sheer speed"
+  },
+  {
+    "id": 49,
+    "start": 102.88,
+    "end": 104.16,
+    "text": "และ Cost Cutting",
+    "th": "และ Cost Cutting",
+    "en": "and cost cutting"
+  },
+  {
+    "id": 50,
+    "start": 104.16,
+    "end": 105.6,
+    "text": "สู่การสร้าง Value",
+    "th": "สู่การสร้าง Value",
+    "en": "towards delivering real value"
+  },
+  {
+    "id": 51,
+    "start": 105.6,
+    "end": 107.68,
+    "text": "และ Business Model Innovation",
+    "th": "และ Business Model Innovation",
+    "en": "and business model innovation."
+  },
+  {
+    "id": 52,
+    "start": 107.68,
+    "end": 108.88,
+    "text": "ในยุคนี้เกิด",
+    "th": "ในยุคนี้เกิด",
+    "en": "In this era,"
+  },
+  {
+    "id": 53,
+    "start": 108.88,
+    "end": 111.28,
+    "text": "Democratization of Tools",
+    "th": "Democratization of Tools",
+    "en": "we witness the Democratization of Tools."
+  },
+  {
+    "id": 54,
+    "start": 111.28,
+    "end": 112.44,
+    "text": "พนักงานทุกแผนก",
+    "th": "พนักงานทุกแผนก",
+    "en": "Employees across every department"
+  },
+  {
+    "id": 55,
+    "start": 112.44,
+    "end": 113.96,
+    "text": "สามารถสร้างสรรค์ผลงาน",
+    "th": "สามารถสร้างสรรค์ผลงาน",
+    "en": "can now produce expert-level outcomes"
+  },
+  {
+    "id": 56,
+    "start": 113.96,
+    "end": 116.92,
+    "text": "ระดับผู้เชี่ยวชาญได้ผ่าน Natural Language",
+    "th": "ระดับผู้เชี่ยวชาญได้ผ่าน Natural Language",
+    "en": "using intuitive Natural Language."
+  },
+  {
+    "id": 57,
+    "start": 116.92,
+    "end": 118.72,
+    "text": "องค์กรจึงควรเปลี่ยนจากการ",
+    "th": "องค์กรจึงควรเปลี่ยนจากการ",
+    "en": "Organizations should therefore transition from"
+  },
+  {
+    "id": 58,
+    "start": 118.72,
+    "end": 120.32,
+    "text": "วัดผลด้วยจำนวนคน",
+    "th": "วัดผลด้วยจำนวนคน",
+    "en": "measuring progress by headcount"
+  },
+  {
+    "id": 59,
+    "start": 120.32,
+    "end": 121.4,
+    "text": "หรือ Headcount",
+    "th": "หรือ Headcount",
+    "en": "or team size"
+  },
+  {
+    "id": 60,
+    "start": 121.4,
+    "end": 123.72,
+    "text": "สู่ Mission-Driven Teams",
+    "th": "สู่ Mission-Driven Teams",
+    "en": "towards Mission-Driven Teams:"
+  },
+  {
+    "id": 61,
+    "start": 123.72,
+    "end": 125.52,
+    "text": "รวมกลุ่มคนขนาดกะทัดรัด",
+    "th": "รวมกลุ่มคนขนาดกะทัดรัด",
+    "en": "compact, cross-functional squads"
+  },
+  {
+    "id": 62,
+    "start": 125.52,
+    "end": 126.72,
+    "text": "2 ถึง 10 คน",
+    "th": "2 ถึง 10 คน",
+    "en": "of 2 to 10 members"
+  },
+  {
+    "id": 63,
+    "start": 126.72,
+    "end": 128.36,
+    "text": "ที่มีความคล่องตัวสูง",
+    "th": "ที่มีความคล่องตัวสูง",
+    "en": "with high agility,"
+  },
+  {
+    "id": 64,
+    "start": 128.36,
+    "end": 130.68,
+    "text": "ขับเคลื่อนด้วยเป้าหมายที่ชัดเจน",
+    "th": "ขับเคลื่อนด้วยเป้าหมายที่ชัดเจน",
+    "en": "driven by clear, high-impact missions,"
+  },
+  {
+    "id": 65,
+    "start": 130.68,
+    "end": 132.96,
+    "text": "และวัดผลลัพธ์จากคุณค่าทางธุรกิจ",
+    "th": "และวัดผลลัพธ์จากคุณค่าทางธุรกิจ",
+    "en": "measuring success by tangible business value"
+  },
+  {
+    "id": 66,
+    "start": 132.96,
+    "end": 134.32,
+    "text": "ที่ส่งมอบจริงค่ะ",
+    "th": "ที่ส่งมอบจริงค่ะ",
+    "en": "actually delivered."
+  },
+  {
+    "id": 67,
+    "start": 134.6,
+    "end": 136.36,
+    "text": "ข้อควรระวังสำคัญยิ่ง",
+    "th": "ข้อควรระวังสำคัญยิ่ง",
+    "en": "A critical danger to watch out for"
+  },
+  {
+    "id": 68,
+    "start": 136.36,
+    "end": 138.36,
+    "text": "คือ The Diamond Trap",
+    "th": "คือ The Diamond Trap",
+    "en": "is The Diamond Trap."
+  },
+  {
+    "id": 69,
+    "start": 138.36,
+    "end": 140.0,
+    "text": "บางองค์กรเริ่มลดการ",
+    "th": "บางองค์กรเริ่มลดการ",
+    "en": "Some organizations begin cutting down"
+  },
+  {
+    "id": 70,
+    "start": 140.0,
+    "end": 141.36,
+    "text": "รับพนักงาน Junior",
+    "th": "รับพนักงาน Junior",
+    "en": "junior-level hiring"
+  },
+  {
+    "id": 71,
+    "start": 141.36,
+    "end": 143.2,
+    "text": "เพราะมองว่า AI ทำงาน",
+    "th": "เพราะมองว่า AI ทำงาน",
+    "en": "believing AI can perform"
+  },
+  {
+    "id": 72,
+    "start": 143.2,
+    "end": 144.6,
+    "text": "พื้นฐานแทนได้",
+    "th": "พื้นฐานแทนได้",
+    "en": "entry-level tasks autonomously."
+  },
+  {
+    "id": 73,
+    "start": 144.6,
+    "end": 145.72,
+    "text": "แต่นี่คือความ",
+    "th": "แต่นี่คือความ",
+    "en": "However, this creates a severe"
+  },
+  {
+    "id": 74,
+    "start": 145.72,
+    "end": 147.76,
+    "text": "เสี่ยงเชิงโครงสร้างระยะยาว",
+    "th": "เสี่ยงเชิงโครงสร้างระยะยาว",
+    "en": "long-term structural risk."
+  },
+  {
+    "id": 75,
+    "start": 147.76,
+    "end": 149.76,
+    "text": "หากตัดฐาน Junior วันนี้",
+    "th": "หากตัดฐาน Junior วันนี้",
+    "en": "If we eliminate the junior base today,"
+  },
+  {
+    "id": 76,
+    "start": 149.76,
+    "end": 151.52,
+    "text": "ในอีก 3 ถึง 5 ปีข้างหน้า",
+    "th": "ในอีก 3 ถึง 5 ปีข้างหน้า",
+    "en": "then in 3 to 5 years,"
+  },
+  {
+    "id": 77,
+    "start": 151.52,
+    "end": 153.68,
+    "text": "จะไม่มีใครสั่งสมประสบการณ์",
+    "th": "จะไม่มีใครสั่งสมประสบการณ์",
+    "en": "no one will have accumulated the experience"
+  },
+  {
+    "id": 78,
+    "start": 153.68,
+    "end": 155.48,
+    "text": "ขึ้นมาเป็น Mid และ Senior",
+    "th": "ขึ้นมาเป็น Mid และ Senior",
+    "en": "to become mid-level and senior leaders,"
+  },
+  {
+    "id": 79,
+    "start": 155.48,
+    "end": 157.68,
+    "text": "เกิดวิกฤตสุญญากาศผู้นำ",
+    "th": "เกิดวิกฤตสุญญากาศผู้นำ",
+    "en": "causing a leadership vacuum crisis."
+  },
+  {
+    "id": 80,
+    "start": 157.68,
+    "end": 159.48,
+    "text": "ทางออกที่ถูกต้องคือ",
+    "th": "ทางออกที่ถูกต้องคือ",
+    "en": "The right solution is"
+  },
+  {
+    "id": 81,
+    "start": 159.48,
+    "end": 161.92,
+    "text": "AI-Augmented Apprenticeship",
+    "th": "AI-Augmented Apprenticeship",
+    "en": "AI-Augmented Apprenticeship:"
+  },
+  {
+    "id": 82,
+    "start": 161.92,
+    "end": 164.68,
+    "text": "ให้ Junior มี AI เป็น Co-pilot",
+    "th": "ให้ Junior มี AI เป็น Co-pilot",
+    "en": "empowering juniors with AI co-pilots,"
+  },
+  {
+    "id": 83,
+    "start": 164.68,
+    "end": 165.72,
+    "text": "โดยมี Senior",
+    "th": "โดยมี Senior",
+    "en": "while senior mentors"
+  },
+  {
+    "id": 84,
+    "start": 165.72,
+    "end": 166.76,
+    "text": "คอยโค้ชชิ่ง",
+    "th": "คอยโค้ชชิ่ง",
+    "en": "provide strategic coaching"
+  },
+  {
+    "id": 85,
+    "start": 166.76,
+    "end": 167.88,
+    "text": "เพื่อสร้างสายธาร",
+    "th": "เพื่อสร้างสายธาร",
+    "en": "to build a resilient talent stream"
+  },
+  {
+    "id": 86,
+    "start": 167.88,
+    "end": 169.72,
+    "text": "บุคลากรที่ยั่งยืนค่ะ",
+    "th": "บุคลากรที่ยั่งยืนค่ะ",
+    "en": "for the sustainable future."
+  },
+  {
+    "id": 87,
+    "start": 169.72,
+    "end": 172.12,
+    "text": "สไลด์นี้แสดงผัง Topology",
+    "th": "สไลด์นี้แสดงผัง Topology",
+    "en": "This slide illustrates the Topology"
+  },
+  {
+    "id": 88,
+    "start": 172.12,
+    "end": 173.96,
+    "text": "เปรียบเทียบสองโครงสร้างค่ะ",
+    "th": "เปรียบเทียบสองโครงสร้างค่ะ",
+    "en": "comparing two team architectures."
+  },
+  {
+    "id": 89,
+    "start": 173.96,
+    "end": 176.2,
+    "text": "ฝั่งซ้ายคือโครงสร้างทรงเพชร",
+    "th": "ฝั่งซ้ายคือโครงสร้างทรงเพชร",
+    "en": "On the left is the Diamond Trap,"
+  },
+  {
+    "id": 90,
+    "start": 176.2,
+    "end": 177.64,
+    "text": "ที่ฐานล่างกลวง",
+    "th": "ที่ฐานล่างกลวง",
+    "en": "where a hollowed-out junior base"
+  },
+  {
+    "id": 91,
+    "start": 177.64,
+    "end": 179.64,
+    "text": "ทำให้ Mid-level ต้องแบกงาน",
+    "th": "ทำให้ Mid-level ต้องแบกงาน",
+    "en": "burdens mid-levels with excessive operational work"
+  },
+  {
+    "id": 92,
+    "start": 179.64,
+    "end": 180.64,
+    "text": "ล้นมือและขาด",
+    "th": "ล้นมือและขาด",
+    "en": "with zero"
+  },
+  {
+    "id": 93,
+    "start": 180.64,
+    "end": 181.64,
+    "text": "ผู้สืบทอด",
+    "th": "ผู้สืบทอด",
+    "en": "successors in the pipeline."
+  },
+  {
+    "id": 94,
+    "start": 181.64,
+    "end": 182.84,
+    "text": "ขณะที่ฝั่งขวา",
+    "th": "ขณะที่ฝั่งขวา",
+    "en": "In contrast, on the right"
+  },
+  {
+    "id": 95,
+    "start": 182.84,
+    "end": 185.64,
+    "text": "คือ AI-Augmented Talent Engine",
+    "th": "คือ AI-Augmented Talent Engine",
+    "en": "is the AI-Augmented Talent Engine,"
+  },
+  {
+    "id": 96,
+    "start": 185.64,
+    "end": 187.64,
+    "text": "ที่รักษาฐาน Junior ไว้",
+    "th": "ที่รักษาฐาน Junior ไว้",
+    "en": "which preserves the junior foundation,"
+  },
+  {
+    "id": 97,
+    "start": 187.64,
+    "end": 189.64,
+    "text": "และติดปีกด้วย AI",
+    "th": "และติดปีกด้วย AI",
+    "en": "empowering them with AI"
+  },
+  {
+    "id": 98,
+    "start": 189.64,
+    "end": 191.64,
+    "text": "ช่วยย่นระยะเวลาการเรียนรู้งาน",
+    "th": "ช่วยย่นระยะเวลาการเรียนรู้งาน",
+    "en": "to accelerate fundamental learning"
+  },
+  {
+    "id": 99,
+    "start": 191.64,
+    "end": 193.64,
+    "text": "พื้นฐานเร็วขึ้น 2 เท่า",
+    "th": "พื้นฐานเร็วขึ้น 2 เท่า",
+    "en": "up to two times faster,"
+  },
+  {
+    "id": 100,
+    "start": 193.64,
+    "end": 195.64,
+    "text": "ทำให้ Talent Flow ขององค์กรแข็งแรง",
+    "th": "ทำให้ Talent Flow ขององค์กรแข็งแรง",
+    "en": "making organizational talent flow robust"
+  },
+  {
+    "id": 101,
+    "start": 195.64,
+    "end": 197.64,
+    "text": "และเติบโตอย่างมั่นคงค่ะ",
+    "th": "และเติบโตอย่างมั่นคงค่ะ",
+    "en": "and sustainably poised for growth."
+  },
+  {
+    "id": 102,
+    "start": 197.64,
+    "end": 199.64,
+    "text": "เมื่อเทคโนโลยีเข้าถึงได้เท่ากัน",
+    "th": "เมื่อเทคโนโลยีเข้าถึงได้เท่ากัน",
+    "en": "When technology is equally accessible to all,"
+  },
+  {
+    "id": 103,
+    "start": 200.64,
+    "end": 205.64,
+    "text": "5 ทักษะนี้จะเป็นตัวชี้วัดความสามารถในการแข่งขันของคนทำงาน",
+    "th": "5 ทักษะนี้จะเป็นตัวชี้วัดความสามารถในการแข่งขันของคนทำงาน",
+    "en": "these 5 skills become the true competitive differentiators:"
+  },
+  {
+    "id": 104,
+    "start": 205.64,
+    "end": 207.64,
+    "text": "ทักษะแรกคือ",
+    "th": "ทักษะแรกคือ",
+    "en": "Skill 1 is"
+  },
+  {
+    "id": 105,
+    "start": 207.64,
+    "end": 209.64,
+    "text": "Learning & Unlearning",
+    "th": "Learning & Unlearning",
+    "en": "Learning & Unlearning:"
+  },
+  {
+    "id": 106,
+    "start": 209.64,
+    "end": 211.64,
+    "text": "พร้อมทิ้งวิธีเดิมและเริ่มใหม่",
+    "th": "พร้อมทิ้งวิธีเดิมและเริ่มใหม่",
+    "en": "the readiness to discard old ways and adapt anew."
+  },
+  {
+    "id": 107,
+    "start": 211.64,
+    "end": 213.64,
+    "text": "ทักษะที่ 2 คือ",
+    "th": "ทักษะที่ 2 คือ",
+    "en": "Skill 2 is"
+  },
+  {
+    "id": 108,
+    "start": 213.64,
+    "end": 215.64,
+    "text": "Problem Framing & Judgment",
+    "th": "Problem Framing & Judgment",
+    "en": "Problem Framing & Judgment:"
+  },
+  {
+    "id": 109,
+    "start": 215.64,
+    "end": 217.64,
+    "text": "การตั้งโจทย์ที่เฉียบคม",
+    "th": "การตั้งโจทย์ที่เฉียบคม",
+    "en": "framing sharp questions"
+  },
+  {
+    "id": 110,
+    "start": 217.64,
+    "end": 219.64,
+    "text": "และใช้ดุลยพินิจตรวจสอบ AI",
+    "th": "และใช้ดุลยพินิจตรวจสอบ AI",
+    "en": "and exercising critical judgment to validate AI."
+  },
+  {
+    "id": 111,
+    "start": 219.64,
+    "end": 221.64,
+    "text": "ทักษะที่ 3 คือ",
+    "th": "ทักษะที่ 3 คือ",
+    "en": "Skill 3 is"
+  },
+  {
+    "id": 112,
+    "start": 221.64,
+    "end": 223.64,
+    "text": "Systems Thinking",
+    "th": "Systems Thinking",
+    "en": "Systems Thinking:"
+  },
+  {
+    "id": 113,
+    "start": 223.64,
+    "end": 225.64,
+    "text": "มองเห็นภาพรวมทั้งห่วงโซ่",
+    "th": "มองเห็นภาพรวมทั้งห่วงโซ่",
+    "en": "grasping the full value chain end-to-end."
+  },
+  {
+    "id": 114,
+    "start": 225.64,
+    "end": 227.64,
+    "text": "ทักษะที่ 4 คือ",
+    "th": "ทักษะที่ 4 คือ",
+    "en": "Skill 4 is"
+  },
+  {
+    "id": 115,
+    "start": 227.64,
+    "end": 229.64,
+    "text": "Curiosity",
+    "th": "Curiosity",
+    "en": "Curiosity:"
+  },
+  {
+    "id": 116,
+    "start": 229.64,
+    "end": 231.64,
+    "text": "กล้าทดลอง Use-Case ใหม่ๆ ด้วยตนเอง",
+    "th": "กล้าทดลอง Use-Case ใหม่ๆ ด้วยตนเอง",
+    "en": "boldly experimenting with new use cases."
+  },
+  {
+    "id": 117,
+    "start": 231.64,
+    "end": 234.64,
+    "text": "และทักษะที่ 5 คือ AI-Literate",
+    "th": "และทักษะที่ 5 คือ AI-Literate",
+    "en": "And Skill 5 is AI Literacy:"
+  },
+  {
+    "id": 118,
+    "start": 234.64,
+    "end": 236.64,
+    "text": "เข้าใจเรื่อง Data Privacy",
+    "th": "เข้าใจเรื่อง Data Privacy",
+    "en": "understanding data privacy"
+  },
+  {
+    "id": 119,
+    "start": 236.64,
+    "end": 238.64,
+    "text": "และทำงานแบบ Human-in-the-Loop ค่ะ",
+    "th": "และทำงานแบบ Human-in-the-Loop ค่ะ",
+    "en": "and collaborating effectively Human-in-the-Loop."
+  },
+  {
+    "id": 120,
+    "start": 238.64,
+    "end": 240.64,
+    "text": "เข้าสู่ส่วนที่ 2 ค่ะ",
+    "th": "เข้าสู่ส่วนที่ 2 ค่ะ",
+    "en": "Welcome to Part 2:"
+  },
+  {
+    "id": 121,
+    "start": 240.64,
+    "end": 242.64,
+    "text": "Building a Solid Foundation",
+    "th": "Building a Solid Foundation",
+    "en": "Building a Solid Foundation."
+  },
+  {
+    "id": 122,
+    "start": 242.64,
+    "end": 244.64,
+    "text": "รากฐานที่แข็งแกร่ง",
+    "th": "รากฐานที่แข็งแกร่ง",
+    "en": "A rock-solid foundation"
+  },
+  {
+    "id": 123,
+    "start": 244.64,
+    "end": 245.64,
+    "text": "คือหัวใจของความสำเร็จ",
+    "th": "คือหัวใจของความสำเร็จ",
+    "en": "is the very heart of success."
+  },
+  {
+    "id": 124,
+    "start": 245.64,
+    "end": 248.64,
+    "text": "เราจะมาดูเรื่องอธิปไตยทาง Digital",
+    "th": "เราจะมาดูเรื่องอธิปไตยทาง Digital",
+    "en": "We will explore Digital Sovereignty,"
+  },
+  {
+    "id": 125,
+    "start": 248.64,
+    "end": 250.64,
+    "text": "การสร้างโรงกลั่นข้อมูลขององค์กร",
+    "th": "การสร้างโรงกลั่นข้อมูลขององค์กร",
+    "en": "building a sovereign enterprise data refinery,"
+  },
+  {
+    "id": 126,
+    "start": 250.64,
+    "end": 253.64,
+    "text": "และ 3 เสาหลักที่เชื่อมโยงเทคโนโลยี",
+    "th": "และ 3 เสาหลักที่เชื่อมโยงเทคโนโลยี",
+    "en": "and three foundational pillars that bridge tech"
+  },
+  {
+    "id": 127,
+    "start": 254.64,
+    "end": 257.64,
+    "text": "สู่คุณค่าในชีวิตจริงค่ะ",
+    "th": "สู่คุณค่าในชีวิตจริงค่ะ",
+    "en": "to real-world business impact."
+  },
+  {
+    "id": 128,
+    "start": 257.64,
+    "end": 259.64,
+    "text": "ข้อมูลคือน้ำมันใหม่",
+    "th": "ข้อมูลคือน้ำมันใหม่",
+    "en": "Data is indeed the new oil,"
+  },
+  {
+    "id": 129,
+    "start": 259.64,
+    "end": 261.64,
+    "text": "แต่ต้องมีโรงกลั่นข้อมูลของตนเอง",
+    "th": "แต่ต้องมีโรงกลั่นข้อมูลของตนเอง",
+    "en": "but you must own your data refinery."
+  },
+  {
+    "id": 130,
+    "start": 261.64,
+    "end": 263.64,
+    "text": "Digital Sovereignty",
+    "th": "Digital Sovereignty",
+    "en": "Digital Sovereignty"
+  },
+  {
+    "id": 131,
+    "start": 263.64,
+    "end": 264.64,
+    "text": "เน้นการจัดเก็บและบริหารข้อมูล",
+    "th": "เน้นการจัดเก็บและบริหารข้อมูล",
+    "en": "emphasizes storing and managing data"
+  },
+  {
+    "id": 132,
+    "start": 264.64,
+    "end": 266.64,
+    "text": "ภายในประเทศ",
+    "th": "ภายในประเทศ",
+    "en": "strictly within national borders,"
+  },
+  {
+    "id": 133,
+    "start": 266.64,
+    "end": 267.64,
+    "text": "เพื่อปฏิบัติตามกฎหมาย",
+    "th": "เพื่อปฏิบัติตามกฎหมาย",
+    "en": "fully compliant with regulations"
+  },
+  {
+    "id": 134,
+    "start": 267.64,
+    "end": 269.64,
+    "text": "PDPA",
+    "th": "PDPA",
+    "en": "such as PDPA."
+  },
+  {
+    "id": 135,
+    "start": 269.64,
+    "end": 272.64,
+    "text": "ข้อมูลส่วนบุคคลและความลับองค์กร",
+    "th": "ข้อมูลส่วนบุคคลและความลับองค์กร",
+    "en": "Personal data and corporate trade secrets"
+  },
+  {
+    "id": 136,
+    "start": 272.64,
+    "end": 275.64,
+    "text": "ต้องผ่านการสกัดและกรอง PII",
+    "th": "ต้องผ่านการสกัดและกรอง PII",
+    "en": "must undergo strict PII filtering and redaction"
+  },
+  {
+    "id": 137,
+    "start": 275.64,
+    "end": 277.64,
+    "text": "ภายในขอบเขต Sovereign Enterprise Boundary",
+    "th": "ภายในขอบเขต Sovereign Enterprise Boundary",
+    "en": "inside the Sovereign Enterprise Boundary,"
+  },
+  {
+    "id": 138,
+    "start": 278.64,
+    "end": 281.64,
+    "text": "ก่อนที่จะเชื่อมต่อกับโมเดลภายนอก",
+    "th": "ก่อนที่จะเชื่อมต่อกับโมเดลภายนอก",
+    "en": "before interfacing with external AI models,"
+  },
+  {
+    "id": 139,
+    "start": 281.64,
+    "end": 283.64,
+    "text": "เพื่อคงสิทธิ์ความเป็นเจ้าของในข้อมูล 100% ค่ะ",
+    "th": "เพื่อคงสิทธิ์ความเป็นเจ้าของในข้อมูล 100% ค่ะ",
+    "en": "retaining 100% sovereign ownership."
+  },
+  {
+    "id": 140,
+    "start": 283.64,
+    "end": 286.64,
+    "text": "จากผังสถาปัตยกรรมนี้",
+    "th": "จากผังสถาปัตยกรรมนี้",
+    "en": "From this architectural topology,"
+  },
+  {
+    "id": 141,
+    "start": 286.64,
+    "end": 287.64,
+    "text": "กระบวนการแบ่งเป็น 3 ขั้นตอนสำคัญ",
+    "th": "กระบวนการแบ่งเป็น 3 ขั้นตอนสำคัญ",
+    "en": "the pipeline operates across 3 key stages:"
+  },
+  {
+    "id": 142,
+    "start": 287.64,
+    "end": 289.64,
+    "text": "ขั้นแรก",
+    "th": "ขั้นแรก",
+    "en": "First,"
+  },
+  {
+    "id": 143,
+    "start": 289.64,
+    "end": 291.64,
+    "text": "Enterprise Raw Data",
+    "th": "Enterprise Raw Data",
+    "en": "Enterprise Raw Data"
+  },
+  {
+    "id": 144,
+    "start": 291.64,
+    "end": 294.64,
+    "text": "ทั้ง ERP และ CRM",
+    "th": "ทั้ง ERP และ CRM",
+    "en": "from ERP and CRM systems"
+  },
+  {
+    "id": 145,
+    "start": 294.64,
+    "end": 297.64,
+    "text": "จัดเก็บบนโครงสร้างพื้นฐานท้องถิ่น",
+    "th": "จัดเก็บบนโครงสร้างพื้นฐานท้องถิ่น",
+    "en": "is securely hosted on local infrastructure."
+  },
+  {
+    "id": 146,
+    "start": 297.64,
+    "end": 299.64,
+    "text": "ขั้นที่ 2 ผ่าน Local Refinery",
+    "th": "ขั้นที่ 2 ผ่าน Local Refinery",
+    "en": "Second, via the Local Refinery,"
+  },
+  {
+    "id": 147,
+    "start": 299.64,
+    "end": 301.64,
+    "text": "ทำการ Masking ข้อมูล PII",
+    "th": "ทำการ Masking ข้อมูล PII",
+    "en": "we mask sensitive PII"
+  },
+  {
+    "id": 148,
+    "start": 301.64,
+    "end": 303.64,
+    "text": "และแปลงเป็น Vector Embeddings",
+    "th": "และแปลงเป็น Vector Embeddings",
+    "en": "and convert data into Vector Embeddings"
+  },
+  {
+    "id": 149,
+    "start": 303.64,
+    "end": 305.64,
+    "text": "ผ่าน Sovereign Gateway",
+    "th": "ผ่าน Sovereign Gateway",
+    "en": "through a Sovereign Gateway"
+  },
+  {
+    "id": 150,
+    "start": 305.64,
+    "end": 308.64,
+    "text": "ที่มีนโยบาย Zero-Retention",
+    "th": "ที่มีนโยบาย Zero-Retention",
+    "en": "enforcing strict Zero-Retention."
+  },
+  {
+    "id": 151,
+    "start": 308.64,
+    "end": 310.64,
+    "text": "และขั้นที่ 3 ส่งเฉพาะ Sanitized Query",
+    "th": "และขั้นที่ 3 ส่งเฉพาะ Sanitized Query",
+    "en": "Third, only Sanitized Queries are dispatched"
+  },
+  {
+    "id": 152,
+    "start": 310.64,
+    "end": 312.64,
+    "text": "ไปยัง Frontier AI ภายนอก",
+    "th": "ไปยัง Frontier AI ภายนอก",
+    "en": "to external Frontier AI models"
+  },
+  {
+    "id": 153,
+    "start": 312.64,
+    "end": 314.64,
+    "text": "เพื่อดึงพลังการคิดกลับมา",
+    "th": "เพื่อดึงพลังการคิดกลับมา",
+    "en": "to retrieve high-intelligence reasoning,"
+  },
+  {
+    "id": 154,
+    "start": 314.64,
+    "end": 315.64,
+    "text": "โดยไม่มีข้อมูลรั่วไหลออกนอกแดนค่ะ",
+    "th": "โดยไม่มีข้อมูลรั่วไหลออกนอกแดนค่ะ",
+    "en": "with zero sensitive data leaving local borders."
+  },
+  {
+    "id": 155,
+    "start": 315.64,
+    "end": 318.64,
+    "text": "การนำ AI มาใช้ต้องอาศัย 3 เสาหลัก",
+    "th": "การนำ AI มาใช้ต้องอาศัย 3 เสาหลัก",
+    "en": "Adopting AI effectively requires three core pillars:"
+  },
+  {
+    "id": 156,
+    "start": 318.64,
+    "end": 321.64,
+    "text": "คือ Infrastructure, Foundation Models",
+    "th": "คือ Infrastructure, Foundation Models",
+    "en": "Infrastructure, Foundation Models,"
+  },
+  {
+    "id": 157,
+    "start": 321.64,
+    "end": 322.64,
+    "text": "และ Ecosystem",
+    "th": "และ Ecosystem",
+    "en": "and an open Ecosystem."
+  },
+  {
+    "id": 158,
+    "start": 322.64,
+    "end": 325.64,
+    "text": "โดยมีตัวอย่างความสำเร็จจริงจาก Rigo",
+    "th": "โดยมีตัวอย่างความสำเร็จจริงจาก Rigo",
+    "en": "Backed by real-world enterprise success stories: Rigo,"
+  },
+  {
+    "id": 159,
+    "start": 325.64,
+    "end": 329.64,
+    "text": "กลุ่มค้าปลีกที่นำ AI มาช่วยบริหารคลังและหน้าร้าน",
+    "th": "กลุ่มค้าปลีกที่นำ AI มาช่วยบริหารคลังและหน้าร้าน",
+    "en": "a major retail group, leveraged AI for inventory and stores,"
+  },
+  {
+    "id": 160,
+    "start": 329.64,
+    "end": 332.64,
+    "text": "ทำให้พนักงานเปิดสาขาใหม่ได้เสร็จสิ้นใน 10 นาที",
+    "th": "ทำให้พนักงานเปิดสาขาใหม่ได้เสร็จสิ้นใน 10 นาที",
+    "en": "enabling staff to launch new stores in just 10 minutes,"
+  },
+  {
+    "id": 161,
+    "start": 332.64,
+    "end": 334.64,
+    "text": "เพิ่มประสิทธิภาพ 50%",
+    "th": "เพิ่มประสิทธิภาพ 50%",
+    "en": "boosting operational efficiency by 50%."
+  },
+  {
+    "id": 162,
+    "start": 334.64,
+    "end": 336.64,
+    "text": "และ New Hope",
+    "th": "และ New Hope",
+    "en": "And New Hope,"
+  },
+  {
+    "id": 163,
+    "start": 336.64,
+    "end": 338.64,
+    "text": "ผู้นำด้านเกษตรและปศุสัตว์",
+    "th": "ผู้นำด้านเกษตรและปศุสัตว์",
+    "en": "an agribusiness leader,"
+  },
+  {
+    "id": 164,
+    "start": 338.64,
+    "end": 340.64,
+    "text": "ที่ใช้ Smart Farm และ AI Monitoring",
+    "th": "ที่ใช้ Smart Farm และ AI Monitoring",
+    "en": "implemented Smart Farming with AI monitoring"
+  },
+  {
+    "id": 165,
+    "start": 340.64,
+    "end": 342.64,
+    "text": "คาดการณ์โรคระบาด",
+    "th": "คาดการณ์โรคระบาด",
+    "en": "to forecast disease outbreaks,"
+  },
+  {
+    "id": 166,
+    "start": 342.64,
+    "end": 344.64,
+    "text": "เพิ่มผลผลิตได้ถึง 80% ค่ะ",
+    "th": "เพิ่มผลผลิตได้ถึง 80% ค่ะ",
+    "en": "surging agricultural productivity by 80%."
+  },
+  {
+    "id": 167,
+    "start": 344.64,
+    "end": 346.64,
+    "text": "ส่วนที่ 3 คือ",
+    "th": "ส่วนที่ 3 คือ",
+    "en": "Part 3 is"
+  },
+  {
+    "id": 168,
+    "start": 346.64,
+    "end": 348.64,
+    "text": "The Agentic AI Landscape",
+    "th": "The Agentic AI Landscape",
+    "en": "The Agentic AI Landscape."
+  },
+  {
+    "id": 169,
+    "start": 348.64,
+    "end": 352.64,
+    "text": "เรากำลังก้าวข้าม Generative AI สู่ Agentic AI",
+    "th": "เรากำลังก้าวข้าม Generative AI สู่ Agentic AI",
+    "en": "We are transitioning from Generative AI to Agentic AI,"
+  },
+  {
+    "id": 170,
+    "start": 352.64,
+    "end": 356.64,
+    "text": "ที่สามารถวางแผนและลงมือปฏิบัติการแทนมนุษย์ได้",
+    "th": "ที่สามารถวางแผนและลงมือปฏิบัติการแทนมนุษย์ได้",
+    "en": "capable of reasoning, planning, and executing autonomous actions."
+  },
+  {
+    "id": 171,
+    "start": 356.64,
+    "end": 359.64,
+    "text": "เราจะมาดูเรื่องระบบความปลอดภัยแบบ Active Defense",
+    "th": "เราจะมาดูเรื่องระบบความปลอดภัยแบบ Active Defense",
+    "en": "We will explore 24/7 Active Defense security,"
+  },
+  {
+    "id": 172,
+    "start": 359.64,
+    "end": 361.64,
+    "text": "การบริหารเศรษฐศาสตร์โทเคน",
+    "th": "การบริหารเศรษฐศาสตร์โทเคน",
+    "en": "Token Economics optimization,"
+  },
+  {
+    "id": 173,
+    "start": 361.64,
+    "end": 364.64,
+    "text": "และแนวปฏิบัติที่ดีในระดับองค์กรค่ะ",
+    "th": "และแนวปฏิบัติที่ดีในระดับองค์กรค่ะ",
+    "en": "and enterprise governance best practices."
+  },
+  {
+    "id": 174,
+    "start": 364.64,
+    "end": 367.64,
+    "text": "เมื่อ AI มีขีดความสามารถลงมือทำงานแทนเรา",
+    "th": "เมื่อ AI มีขีดความสามารถลงมือทำงานแทนเรา",
+    "en": "As AI gains autonomy to execute real-world tasks,"
+  },
+  {
+    "id": 175,
+    "start": 367.64,
+    "end": 370.64,
+    "text": "ความปลอดภัยจึงต้องเป็น Continuous Active Defense",
+    "th": "ความปลอดภัยจึงต้องเป็น Continuous Active Defense",
+    "en": "security must evolve into Continuous Active Defense,"
+  },
+  {
+    "id": 176,
+    "start": 370.64,
+    "end": 372.64,
+    "text": "ตลอด 24 ชั่วโมง",
+    "th": "ตลอด 24 ชั่วโมง",
+    "en": "operating 24/7."
+  },
+  {
+    "id": 177,
+    "start": 372.64,
+    "end": 374.64,
+    "text": "โดยใช้ระบบ Multi-Agent System",
+    "th": "โดยใช้ระบบ Multi-Agent System",
+    "en": "Using a coordinated Multi-Agent System:"
+  },
+  {
+    "id": 178,
+    "start": 374.64,
+    "end": 376.64,
+    "text": "ประกอบด้วย Red Agents",
+    "th": "ประกอบด้วย Red Agents",
+    "en": "consisting of Red Agents,"
+  },
+  {
+    "id": 179,
+    "start": 376.64,
+    "end": 379.64,
+    "text": "ทำหน้าที่จำลองการเจาะระบบเพื่อหาช่องโหว่",
+    "th": "ทำหน้าที่จำลองการเจาะระบบเพื่อหาช่องโหว่",
+    "en": "simulating adversarial exploits to uncover vulnerabilities"
+  },
+  {
+    "id": 180,
+    "start": 379.64,
+    "end": 382.64,
+    "text": "ก่อนถูกโจมตีจริง",
+    "th": "ก่อนถูกโจมตีจริง",
+    "en": "before adversaries can strike;"
+  },
+  {
+    "id": 181,
+    "start": 382.64,
+    "end": 385.64,
+    "text": "Blue Agents",
+    "th": "Blue Agents",
+    "en": "Blue Agents,"
+  },
+  {
+    "id": 182,
+    "start": 385.64,
+    "end": 388.64,
+    "text": "ทำหน้าที่ Autonomous SOC",
+    "th": "ทำหน้าที่ Autonomous SOC",
+    "en": "acting as an Autonomous SOC"
+  },
+  {
+    "id": 183,
+    "start": 388.64,
+    "end": 389.64,
+    "text": "ตรวจจับและระงับเหตุภัยคุกคามทันที",
+    "th": "ตรวจจับและระงับเหตุภัยคุกคามทันที",
+    "en": "to detect and remediate threats in real time;"
+  },
+  {
+    "id": 184,
+    "start": 389.64,
+    "end": 391.64,
+    "text": "และ Green Agents",
+    "th": "และ Green Agents",
+    "en": "and Green Agents,"
+  },
+  {
+    "id": 185,
+    "start": 391.64,
+    "end": 394.64,
+    "text": "คอยกำกับดูแลจริยธรรม",
+    "th": "คอยกำกับดูแลจริยธรรม",
+    "en": "continuously enforcing compliance,"
+  },
+  {
+    "id": 186,
+    "start": 394.64,
+    "end": 397.64,
+    "text": "กฎระเบียบ และนโยบาย PII",
+    "th": "กฎระเบียบ และนโยบาย PII",
+    "en": "ethics, and PII guardrails"
+  },
+  {
+    "id": 187,
+    "start": 397.64,
+    "end": 401.64,
+    "text": "เพื่อให้มั่นใจว่าการทำงานปลอดภัยสูงสุดค่ะ",
+    "th": "เพื่อให้มั่นใจว่าการทำงานปลอดภัยสูงสุดค่ะ",
+    "en": "to ensure bulletproof enterprise safety."
+  },
+  {
+    "id": 188,
+    "start": 401.64,
+    "end": 402.64,
+    "text": "AI จะฉลาดได้อยู่ที่ Context Engineering",
+    "th": "AI จะฉลาดได้อยู่ที่ Context Engineering",
+    "en": "AI intelligence fundamentally depends on Context Engineering,"
+  },
+  {
+    "id": 189,
+    "start": 402.64,
+    "end": 405.64,
+    "text": "ไม่ใช่แค่ Prompt ค่ะ",
+    "th": "ไม่ใช่แค่ Prompt ค่ะ",
+    "en": "not mere prompt crafting."
+  },
+  {
+    "id": 190,
+    "start": 405.64,
+    "end": 407.64,
+    "text": "การป้อนบริบทธุรกิจที่ครบถ้วน",
+    "th": "การป้อนบริบทธุรกิจที่ครบถ้วน",
+    "en": "Supplying rich, precise business context"
+  },
+  {
+    "id": 191,
+    "start": 407.64,
+    "end": 410.64,
+    "text": "ทำให้ได้ผลลัพธ์ที่ตรงจุด",
+    "th": "ทำให้ได้ผลลัพธ์ที่ตรงจุด",
+    "en": "delivers targeted, high-precision results,"
+  },
+  {
+    "id": 192,
+    "start": 410.64,
+    "end": 413.64,
+    "text": "ควบคู่กับการบริหาร Token Economy",
+    "th": "ควบคู่กับการบริหาร Token Economy",
+    "en": "coupled with disciplined Token Economics management"
+  },
+  {
+    "id": 193,
+    "start": 413.64,
+    "end": 414.64,
+    "text": "ด้วย Semantic Cache และ Prompt Caching",
+    "th": "ด้วย Semantic Cache และ Prompt Caching",
+    "en": "using Semantic and Prompt Caching."
+  },
+  {
+    "id": 194,
+    "start": 414.64,
+    "end": 415.64,
+    "text": "ตัวอย่างจริงเช่น",
+    "th": "ตัวอย่างจริงเช่น",
+    "en": "A real-world example is"
+  },
+  {
+    "id": 195,
+    "start": 415.64,
+    "end": 417.64,
+    "text": "Executive Case Study",
+    "th": "Executive Case Study",
+    "en": "an Executive Case Study"
+  },
+  {
+    "id": 196,
+    "start": 417.64,
+    "end": 421.64,
+    "text": "ที่ใช้ Chief of Staff Agent",
+    "th": "ที่ใช้ Chief of Staff Agent",
+    "en": "using a Chief of Staff Agent"
+  },
+  {
+    "id": 197,
+    "start": 421.64,
+    "end": 424.64,
+    "text": "คัดกรองและร่างคำตอบอีเมลวันละกว่า 100 ฉบับ",
+    "th": "คัดกรองและร่างคำตอบอีเมลวันละกว่า 100 ฉบับ",
+    "en": "to triage and draft replies for 100+ emails daily,"
+  },
+  {
+    "id": 198,
+    "start": 424.64,
+    "end": 426.64,
+    "text": "ช่วยประหยัดเวลาของผู้บริหารได้ถึง 80%",
+    "th": "ช่วยประหยัดเวลาของผู้บริหารได้ถึง 80%",
+    "en": "saving executives 80% of their morning routine"
+  },
+  {
+    "id": 199,
+    "start": 426.64,
+    "end": 428.64,
+    "text": "ในการเริ่มต้นวันทำงานค่ะ",
+    "th": "ในการเริ่มต้นวันทำงานค่ะ",
+    "en": "at the start of each business day."
+  },
+  {
+    "id": 200,
+    "start": 428.64,
+    "end": 431.64,
+    "text": "หัวใจสำคัญ 3 ประการ",
+    "th": "หัวใจสำคัญ 3 ประการ",
+    "en": "Three cornerstone principles"
+  },
+  {
+    "id": 201,
+    "start": 431.64,
+    "end": 435.64,
+    "text": "ในการขับเคลื่อนสู่องค์กร AI อย่างยั่งยืน",
+    "th": "ในการขับเคลื่อนสู่องค์กร AI อย่างยั่งยืน",
+    "en": "for driving a sustainable AI-First enterprise:"
+  },
+  {
+    "id": 202,
+    "start": 435.64,
+    "end": 439.64,
+    "text": "ประการแรกคือจัดตั้ง AI Center of Excellence",
+    "th": "ประการแรกคือจัดตั้ง AI Center of Excellence",
+    "en": "First, establish an AI Center of Excellence (CoE)"
+  },
+  {
+    "id": 203,
+    "start": 439.64,
+    "end": 442.64,
+    "text": "กำหนดมาตรฐานความปลอดภัยและกระจายองค์ความรู้",
+    "th": "กำหนดมาตรฐานความปลอดภัยและกระจายองค์ความรู้",
+    "en": "to govern security standards and disseminate expertise."
+  },
+  {
+    "id": 204,
+    "start": 442.64,
+    "end": 445.64,
+    "text": "ประการที่ 2 คือ Human-in-the-Loop",
+    "th": "ประการที่ 2 คือ Human-in-the-Loop",
+    "en": "Second, enforce Human-in-the-Loop:"
+  },
+  {
+    "id": 205,
+    "start": 445.64,
+    "end": 447.64,
+    "text": "การตัดสินใจสำคัญยังต้องมีมนุษย์อนุมัติ",
+    "th": "การตัดสินใจสำคัญยังต้องมีมนุษย์อนุมัติ",
+    "en": "critical decisions require human approval"
+  },
+  {
+    "id": 206,
+    "start": 447.64,
+    "end": 450.64,
+    "text": "พร้อมระบบ Kill Switch",
+    "th": "พร้อมระบบ Kill Switch",
+    "en": "backed by an emergency Kill Switch."
+  },
+  {
+    "id": 207,
+    "start": 450.64,
+    "end": 453.64,
+    "text": "และประการที่ 3 คือ Continuous Skilling",
+    "th": "และประการที่ 3 คือ Continuous Skilling",
+    "en": "Third, promote Continuous Skilling:"
+  },
+  {
+    "id": 208,
+    "start": 453.64,
+    "end": 456.64,
+    "text": "พัฒนาทักษะและสนับสนุนให้พนักงานกล้าทดลอง",
+    "th": "พัฒนาทักษะและสนับสนุนให้พนักงานกล้าทดลอง",
+    "en": "empowering employees to experiment fearlessly"
+  },
+  {
+    "id": 209,
+    "start": 456.64,
+    "end": 458.64,
+    "text": "อย่างต่อเนื่องค่ะ",
+    "th": "อย่างต่อเนื่องค่ะ",
+    "en": "and continuously evolve."
+  },
+  {
+    "id": 210,
+    "start": 458.64,
+    "end": 461.64,
+    "text": "สำหรับท่านที่ต้องการศึกษา",
+    "th": "สำหรับท่านที่ต้องการศึกษา",
+    "en": "For those who wish to explore further"
+  },
+  {
+    "id": 211,
+    "start": 461.64,
+    "end": 464.64,
+    "text": "และต่อยอดมุมมองในรายละเอียด",
+    "th": "และต่อยอดมุมมองในรายละเอียด",
+    "en": "and deepen their strategic insights,"
+  },
+  {
+    "id": 212,
+    "start": 464.64,
+    "end": 467.64,
+    "text": "เราได้จัดทำพอดแคสต์เจาะลึกพิเศษ 4 ตอน",
+    "th": "เราได้จัดทำพอดแคสต์เจาะลึกพิเศษ 4 ตอน",
+    "en": "we have produced a 4-episode deep-dive podcast series:"
+  },
+  {
+    "id": 213,
+    "start": 467.64,
+    "end": 470.64,
+    "text": "ครอบคลุมทั้ง EP 1 ตอนที่ 1",
+    "th": "ครอบคลุมทั้ง EP 1 ตอนที่ 1",
+    "en": "covering EP 1 Part 1"
+  },
+  {
+    "id": 214,
+    "start": 470.64,
+    "end": 473.64,
+    "text": "และตอนที่ 2 เรื่องวัฒนธรรมองค์กร",
+    "th": "และตอนที่ 2 เรื่องวัฒนธรรมองค์กร",
+    "en": "and Part 2 on organizational transformation,"
+  },
+  {
+    "id": 215,
+    "start": 473.64,
+    "end": 475.64,
+    "text": "EP 2 เรื่องอธิปไตยทางข้อมูล",
+    "th": "EP 2 เรื่องอธิปไตยทางข้อมูล",
+    "en": "EP 2 on Sovereign Data & Infrastructure,"
+  },
+  {
+    "id": 216,
+    "start": 475.64,
+    "end": 478.64,
+    "text": "และ EP 3 เรื่อง Agentic AI",
+    "th": "และ EP 3 เรื่อง Agentic AI",
+    "en": "and EP 3 on Agentic AI & Token Economy."
+  },
+  {
+    "id": 217,
+    "start": 478.64,
+    "end": 480.64,
+    "text": "ทุกท่านสามารถคลิกฟังบทวิเคราะห์",
+    "th": "ทุกท่านสามารถคลิกฟังบทวิเคราะห์",
+    "en": "You can click to listen to in-depth analysis"
+  },
+  {
+    "id": 218,
+    "start": 480.64,
+    "end": 482.64,
+    "text": "และกรณีศึกษาเพิ่มเติมผ่านลิงก์พอดแคสต์ในหน้านี้",
+    "th": "และกรณีศึกษาเพิ่มเติมผ่านลิงก์พอดแคสต์ในหน้านี้",
+    "en": "and real-world case studies via podcast links on this slide"
+  },
+  {
+    "id": 219,
+    "start": 482.64,
+    "end": 486.64,
+    "text": "ได้ทุกที่ทุกเวลาค่ะ",
+    "th": "ได้ทุกที่ทุกเวลาค่ะ",
+    "en": "anytime, anywhere."
+  },
+  {
+    "id": 220,
+    "start": 486.64,
+    "end": 489.64,
+    "text": "บทสรุปของการเดินทางครั้งนี้ค่ะ",
+    "th": "บทสรุปของการเดินทางครั้งนี้ค่ะ",
+    "en": "In conclusion of our journey today:"
+  },
+  {
+    "id": 221,
+    "start": 489.64,
+    "end": 493.64,
+    "text": "ก้าวข้ามการมอง AI เป็นเพียงเครื่องมือลดเวลา",
+    "th": "ก้าวข้ามการมอง AI เป็นเพียงเครื่องมือลดเวลา",
+    "en": "move beyond viewing AI merely as a time-saver;"
+  },
+  {
+    "id": 222,
+    "start": 493.64,
+    "end": 497.64,
+    "text": "แต่จงใช้ AI เพื่อสร้างสรรค์คุณค่าใหม่ให้ธุรกิจ",
+    "th": "แต่จงใช้ AI เพื่อสร้างสรรค์คุณค่าใหม่ให้ธุรกิจ",
+    "en": "embrace AI to unlock transformative new business value,"
+  },
+  {
+    "id": 223,
+    "start": 497.64,
+    "end": 500.64,
+    "text": "ควบคู่ไปกับการวางรากฐานข้อมูลที่มั่นคงปลอดภัย",
+    "th": "ควบคู่ไปกับการวางรากฐานข้อมูลที่มั่นคงปลอดภัย",
+    "en": "backed by resilient, sovereign data foundations,"
+  },
+  {
+    "id": 224,
+    "start": 500.64,
+    "end": 503.64,
+    "text": "และพัฒนาคนให้พร้อมทำงานร่วมกับ AI ในอนาคต",
+    "th": "และพัฒนาคนให้พร้อมทำงานร่วมกับ AI ในอนาคต",
+    "en": "and empower people to thrive alongside AI."
+  }
+]
