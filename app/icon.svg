@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <!-- Liquid Gradient matching Presentation Hub Theme -->
+    <linearGradient id="liquidGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="45%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+  </defs>
+
+  <!-- Solid Vibrant Liquid Squircle Background -->
+  <rect width="64" height="64" rx="16" fill="url(#liquidGrad)" />
+
+  <!-- Presentation Screen (Solid Crisp White) -->
+  <rect x="12" y="12" width="40" height="26" rx="5" fill="#ffffff" />
+
+  <!-- Play / Presentation Cutout Symbol (Reveals vibrant gradient in center) -->
+  <polygon points="28.5,19 38.5,25 28.5,31" fill="url(#liquidGrad)" />
+
+  <!-- Easel Stand Base (Bold Solid White Lines) -->
+  <line x1="32" y1="38" x2="32" y2="44" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" />
+  <path d="M20 51 L32 44 L44 51" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
